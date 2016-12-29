@@ -1,0 +1,9 @@
+/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/optimized/
+/Users/adamc/Projects/TestTimer/TestTimer/bin/iPhoneSimulator/Debug/TestTimer.exe.mdb
+/Users/adamc/Projects/TestTimer/TestTimer/bin/iPhoneSimulator/Debug/TestTimer.exe
+/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/TestTimer.exe
+/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/TestTimer.exe.mdb
