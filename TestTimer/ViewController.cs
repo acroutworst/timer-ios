@@ -16,6 +16,7 @@ namespace TestTimer
 
 		public UIPickerView picker;
 		public UIButton toggleStartButton;
+		public UILabel numbersLabel;
 
 		private Boolean stopped;
 		private Boolean resume;
@@ -32,6 +33,7 @@ namespace TestTimer
 		public UIColor SelectedColor { 
 			get { return Colors[selectedIndex]; }
 		}
+
 		int selectedIndex = 0;
 
 		StatusPickerViewModel statusPickerViewModel;
@@ -49,7 +51,10 @@ namespace TestTimer
 			SetupEventHandlers();
 		}
 
+		/// <summary>
 		/// Hide status bar
+		/// </summary>
+		/// <returns><c>true</c>, if status bar hidden was prefersed, <c>false</c> otherwise.</returns>
 		public override bool PrefersStatusBarHidden()
 		{
 			return true;
@@ -62,12 +67,26 @@ namespace TestTimer
 
 			toggleStartButton = new UIButton();
 			toggleStartButton.SetImage(UIImage.FromBundle("GreenCircle"), UIControlState.Normal);
+			//toggleStartButton.SetTitle("Start", UIControlState.Highlighted);
+			//toggleStartButton.SetTitleColor(UIColor.Black, UIControlState.Highlighted);
+			//toggleStartButton.Layer.BorderWidth = 1;
+			//toggleStartButton.Layer.BorderColor = new CGColor(1, 0, 0);
+			//toggleStartButton.Layer.CornerRadius = 27;
+
+			numbersLabel = new UILabel();
+			numbersLabel.TextColor = UIColor.DarkGray;
+			numbersLabel.Font = UIFont.FromName("Helvetica-Bold", 75f);
+			numbersLabel.AdjustsFontSizeToFitWidth = true;
+			numbersLabel.MinimumFontSize = 20f;
+			numbersLabel.Hidden = true;
 
 			picker.TranslatesAutoresizingMaskIntoConstraints = false;
 			toggleStartButton.TranslatesAutoresizingMaskIntoConstraints = false;
+			numbersLabel.TranslatesAutoresizingMaskIntoConstraints = false;
 
 			View.Add(picker);
 			View.Add(toggleStartButton);
+			View.Add(numbersLabel);
 
 			var constraints = NSLayoutConstraint.Create(
 				picker,
@@ -109,10 +128,32 @@ namespace TestTimer
 				0
 			);
 
+			var constraintsNumber = NSLayoutConstraint.Create(
+				numbersLabel,
+				NSLayoutAttribute.Top,
+				NSLayoutRelation.Equal,
+				selectedLbl,
+				NSLayoutAttribute.Bottom,
+				1,
+				50
+			);
+
+			var constraintsNumber1 = NSLayoutConstraint.Create(
+				numbersLabel,
+				NSLayoutAttribute.CenterX,
+				NSLayoutRelation.Equal,
+				View,
+				NSLayoutAttribute.CenterX,
+				1,
+				0
+			);
+
 			View.AddConstraint(constraints);
 			View.AddConstraint(constraints1);
 			View.AddConstraint(constraintStart);
 			View.AddConstraint(constraintStart1);
+			View.AddConstraint(constraintsNumber);
+			View.AddConstraint(constraintsNumber1);
 		}
 
 		private void SetupEventHandlers()
@@ -124,12 +165,17 @@ namespace TestTimer
 		{
 			if (stopped)
 				Start();
+			else if (resume)
+				Resume();
 			else
 				Stopped();
 		}
 
 		private void Start() 
-		{ 
+		{
+			picker.Hidden = true;
+			numbersLabel.Hidden = false;
+
 			toggleStartButton.SetImage(UIImage.FromBundle("RedCircle"), UIControlState.Normal);
 
 			timerHrs = statusPickerViewModel.hours;
@@ -138,17 +184,29 @@ namespace TestTimer
 
 			ConvertToSeconds();
 
-			if (resume) { 
-				// Resume the timer
-			}
-
-			_timer = NSTimer.CreateRepeatingScheduledTimer(TimeSpan.FromMilliseconds(1500), (obj) => {
+			_timer = NSTimer.CreateRepeatingScheduledTimer(TimeSpan.FromMilliseconds(1250), (obj) => {
 				if (secondsLeft > 0)
 				{
 					secondsLeft--;
 					timerHrs = secondsLeft / 3600;
 					timerMin = (secondsLeft % 3600) / 60;
 					timerSec = (secondsLeft % 3600) % 60;
+
+
+					if (timerHrs <= 0)
+					{
+						numbersLabel.Text = String.Format("{0}:{1}", timerMin, timerSec);
+
+					}
+					else if (timerHrs <= 0 && timerMin <= 0)
+					{
+						numbersLabel.Text = String.Format("{0} sec", timerSec);
+
+					}
+					else 
+					{
+						numbersLabel.Text = String.Format("{0}:{1}:{2}", timerHrs, timerMin, timerSec);	
+					}
 
 					toggleStartButton.SetTitle(String.Format("{0} hours {1} minutes {2} seconds",
 															 timerHrs, timerMin, timerSec), UIControlState.Normal);
@@ -162,13 +220,71 @@ namespace TestTimer
 				}
 			});
 
+			_timer.Fire();
+
 			stopped = false;
+
+		}
+
+		private void Resume() 
+		{
+			_timer = NSTimer.CreateRepeatingScheduledTimer(TimeSpan.FromMilliseconds(1250), (obj) =>
+			{
+				if (secondsLeft > 0)
+				{
+					secondsLeft--;
+					timerHrs = secondsLeft / 3600;
+					timerMin = (secondsLeft % 3600) / 60;
+					timerSec = (secondsLeft % 3600) % 60;
+
+
+					if (timerHrs <= 0)
+					{
+						numbersLabel.Text = String.Format("{0}:{1}", timerMin, timerSec);
+
+					}
+					else if (timerHrs <= 0 && timerMin <= 0)
+					{
+						numbersLabel.Text = String.Format("{0} sec", timerSec);
+
+					}
+					else
+					{
+						numbersLabel.Text = String.Format("{0}:{1}:{2}", timerHrs, timerMin, timerSec);
+					}
+
+					toggleStartButton.SetTitle(String.Format("{0} hours {1} minutes {2} seconds",
+															 timerHrs, timerMin, timerSec), UIControlState.Normal);
+
+					toggleStartButton.SetTitleColor(UIColor.Black, UIControlState.Normal);
+				}
+				else
+				{
+					_timer.Invalidate();
+					_timer.Dispose();
+				}
+			});
+
+
+			resume = true;
 		}
 
 		private void Stopped()
 		{
+			numbersLabel.Hidden = true;
+			picker.Hidden = false;
+			resume = false;
+
+			_timer.Invalidate();
+			_timer.Dispose();
+
 			toggleStartButton.SetImage(UIImage.FromBundle("GreenCircle"), UIControlState.Normal);
+
 			stopped = true;
+		}
+
+		private void Reset()
+		{ 
 		}
 
 		public void ConvertToSeconds()
@@ -235,11 +351,6 @@ namespace TestTimer
 
 			public override void Selected(UIPickerView pickerView, nint row, nint component)
 			{
-				pickerLabel.Text = String.Format("{0} : {1} : {2}",
-				                                 pickerView.SelectedRowInComponent (0),
-				                                 pickerView.SelectedRowInComponent (1),
-				                                 pickerView.SelectedRowInComponent (2));
-
 				hours = pickerView.SelectedRowInComponent(0);
 				minutes = pickerView.SelectedRowInComponent(1);
 				seconds = pickerView.SelectedRowInComponent(2);
