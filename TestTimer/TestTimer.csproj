@@ -101,11 +101,26 @@
     <ImageAsset Include="Assets.xcassets\RedCircle.imageset\RedCircle%402x.png" />
     <ImageAsset Include="Assets.xcassets\RedCircle.imageset\RedCircle%403x.png" />
     <ImageAsset Include="Assets.xcassets\RedCircle.imageset\RedCircle.png" />
+    <ImageAsset Include="Assets.xcassets\BlueCircle.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\BlueCircle.imageset\BlueCircle%402x.png" />
+    <ImageAsset Include="Assets.xcassets\BlueCircle.imageset\BlueCircle.png" />
+    <ImageAsset Include="Assets.xcassets\BlueCircle.imageset\BlueCircle%403x.png" />
+    <ImageAsset Include="Assets.xcassets\AquaCircle.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\AquaCircle.imageset\AquaCircle.png" />
+    <ImageAsset Include="Assets.xcassets\AquaCircle.imageset\AquaCircle%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AquaCircle.imageset\AquaCircle%403x.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
     <Folder Include="Assets.xcassets\GreenCircle.imageset\" />
     <Folder Include="Assets.xcassets\RedCircle.imageset\" />
+    <Folder Include="Assets.xcassets\CyanCircle.imageset\" />
+    <Folder Include="Assets.xcassets\PurpleCircle.imageset\" />
+    <Folder Include="Assets.xcassets\Purple.imageset\" />
+    <Folder Include="Assets.xcassets\Cyan.imageset\" />
+    <Folder Include="Assets.xcassets\BlueCircle.imageset\" />
+    <Folder Include="Assets.xcassets\AquaCircle.imageset\" />
+    <Folder Include="Assets.xcassets\CyanCirecle.imageset\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -130,6 +145,12 @@
     <BundleResource Include="Resources\RedCircle%401x.png" />
     <BundleResource Include="Resources\RedCircle%402x.png" />
     <BundleResource Include="Resources\RedCircle%403x.png" />
+    <BundleResource Include="Resources\AquaCircle%401x.png" />
+    <BundleResource Include="Resources\AquaCircle%402x.png" />
+    <BundleResource Include="Resources\AquaCircle%403x.png" />
+    <BundleResource Include="Resources\BlueCircle%401x.png" />
+    <BundleResource Include="Resources\BlueCircle%402x.png" />
+    <BundleResource Include="Resources\BlueCircle%403x.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

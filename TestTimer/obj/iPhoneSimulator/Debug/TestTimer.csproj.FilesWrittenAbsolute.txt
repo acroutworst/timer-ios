@@ -17,3 +17,9 @@
 /Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/optimized/RedCircle@1x.png
 /Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/optimized/RedCircle@2x.png
 /Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/optimized/RedCircle@3x.png
+/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/optimized/AquaCircle@1x.png
+/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/optimized/AquaCircle@2x.png
+/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/optimized/AquaCircle@3x.png
+/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/optimized/BlueCircle@1x.png
+/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/optimized/BlueCircle@2x.png
+/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/optimized/BlueCircle@3x.png
