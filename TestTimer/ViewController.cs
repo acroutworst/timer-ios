@@ -16,11 +16,13 @@ namespace TestTimer
 
 		public UIPickerView picker;
 		public UIButton toggleStartButton;
+		public UIButton togglePauseButton;
+		public UIButton toggleResumeButton;
+		public UIButton toggleStopButton;
 		public UILabel numbersLabel;
 
 		private Boolean stopped;
 		private Boolean resume;
-		private Boolean reset;
 
 		private NSTimer _timer;
 
@@ -34,7 +36,7 @@ namespace TestTimer
 			get { return Colors[selectedIndex]; }
 		}
 
-		int selectedIndex = 0;
+		int selectedIndex;
 
 		StatusPickerViewModel statusPickerViewModel;
 
@@ -73,19 +75,36 @@ namespace TestTimer
 			//toggleStartButton.Layer.BorderColor = new CGColor(1, 0, 0);
 			//toggleStartButton.Layer.CornerRadius = 27;
 
+			toggleStopButton = new UIButton();
+			toggleStopButton.SetImage(UIImage.FromBundle("RedCircle"), UIControlState.Normal);
+			toggleStopButton.Hidden = true;
+
+			togglePauseButton = new UIButton();
+			togglePauseButton.SetImage(UIImage.FromBundle("BlueCircle"), UIControlState.Normal);
+			togglePauseButton.Hidden = true;
+
+			toggleResumeButton = new UIButton();
+			toggleResumeButton.SetImage(UIImage.FromBundle("AquaCircle"), UIControlState.Normal);
+			toggleResumeButton.Hidden = true;
+
 			numbersLabel = new UILabel();
 			numbersLabel.TextColor = UIColor.DarkGray;
 			numbersLabel.Font = UIFont.FromName("Helvetica-Bold", 75f);
 			numbersLabel.AdjustsFontSizeToFitWidth = true;
-			numbersLabel.MinimumFontSize = 20f;
 			numbersLabel.Hidden = true;
 
 			picker.TranslatesAutoresizingMaskIntoConstraints = false;
 			toggleStartButton.TranslatesAutoresizingMaskIntoConstraints = false;
+			toggleStopButton.TranslatesAutoresizingMaskIntoConstraints = false;
+			togglePauseButton.TranslatesAutoresizingMaskIntoConstraints = false;
+			toggleResumeButton.TranslatesAutoresizingMaskIntoConstraints = false;
 			numbersLabel.TranslatesAutoresizingMaskIntoConstraints = false;
 
 			View.Add(picker);
 			View.Add(toggleStartButton);
+			View.Add(togglePauseButton);
+			View.Add(toggleResumeButton);
+			View.Add(toggleStopButton);
 			View.Add(numbersLabel);
 
 			var constraints = NSLayoutConstraint.Create(
@@ -128,6 +147,66 @@ namespace TestTimer
 				0
 			);
 
+			var constraintStop = NSLayoutConstraint.Create(
+				toggleStopButton,
+				NSLayoutAttribute.Top,
+				NSLayoutRelation.Equal,
+				picker,
+				NSLayoutAttribute.Bottom,
+				1,
+				200
+			);
+
+			var constraintStop1 = NSLayoutConstraint.Create(
+				toggleStopButton,
+				NSLayoutAttribute.CenterX,
+				NSLayoutRelation.Equal,
+				View,
+				NSLayoutAttribute.Right,
+				1,
+				-100
+			);
+
+			var constraintPause = NSLayoutConstraint.Create(
+				togglePauseButton,
+				NSLayoutAttribute.Top,
+				NSLayoutRelation.Equal,
+				picker,
+				NSLayoutAttribute.Bottom,
+				1,
+				200
+			);
+
+			var constraintPause1 = NSLayoutConstraint.Create(
+				togglePauseButton,
+				NSLayoutAttribute.CenterX,
+				NSLayoutRelation.Equal,
+				View,
+				NSLayoutAttribute.Left,
+				1,
+				100
+			);
+
+			var constraintResume = NSLayoutConstraint.Create(
+				toggleResumeButton,
+				NSLayoutAttribute.Top,
+				NSLayoutRelation.Equal,
+				picker,
+				NSLayoutAttribute.Bottom,
+				1,
+				200
+			);
+
+			var constraintResume1 = NSLayoutConstraint.Create(
+				toggleResumeButton,
+				NSLayoutAttribute.CenterX,
+				NSLayoutRelation.Equal,
+				View,
+				NSLayoutAttribute.Left,
+				1,
+				100
+			);
+
 			var constraintsNumber = NSLayoutConstraint.Create(
 				numbersLabel,
 				NSLayoutAttribute.Top,
@@ -152,13 +231,22 @@ namespace TestTimer
 			View.AddConstraint(constraints1);
 			View.AddConstraint(constraintStart);
 			View.AddConstraint(constraintStart1);
+			View.AddConstraint(constraintStop);
+			View.AddConstraint(constraintStop1);
+			View.AddConstraint(constraintPause);
+			View.AddConstraint(constraintPause1);
+			View.AddConstraint(constraintResume);
+			View.AddConstraint(constraintResume1);
 			View.AddConstraint(constraintsNumber);
 			View.AddConstraint(constraintsNumber1);
 		}
 
 		private void SetupEventHandlers()
 		{ 
-			toggleStartButton.TouchUpInside += (sender, e) => ToggleStartButton ();
+			toggleStartButton.TouchUpInside += (sender, e) => Start();
+			toggleStopButton.TouchUpInside += (sender, e) => Stopped();
+			togglePauseButton.TouchUpInside += (sender, e) => Pause();
+			toggleResumeButton.TouchUpInside += (sender, e) => Resume();
 		}
 
 		private void ToggleStartButton() 
@@ -176,7 +264,11 @@ namespace TestTimer
 			picker.Hidden = true;
 			numbersLabel.Hidden = false;
 
-			toggleStartButton.SetImage(UIImage.FromBundle("RedCircle"), UIControlState.Normal);
+			toggleStartButton.Hidden = true;
+			toggleResumeButton.Hidden = true;
+			toggleStopButton.Hidden = false;
+			togglePauseButton.Hidden = false;
+			//toggleStartButton.SetImage(UIImage.FromBundle("RedCircle"), UIControlState.Normal);
 
 			timerHrs = statusPickerViewModel.hours;
 			timerMin = statusPickerViewModel.minutes;
@@ -184,7 +276,7 @@ namespace TestTimer
 
 			ConvertToSeconds();
 
-			_timer = NSTimer.CreateRepeatingScheduledTimer(TimeSpan.FromMilliseconds(1250), (obj) => {
+			_timer = NSTimer.CreateRepeatingScheduledTimer(TimeSpan.FromMilliseconds(1000), (obj) => {
 				if (secondsLeft > 0)
 				{
 					secondsLeft--;
@@ -193,25 +285,18 @@ namespace TestTimer
 					timerSec = (secondsLeft % 3600) % 60;
 
 
-					if (timerHrs <= 0)
-					{
-						numbersLabel.Text = String.Format("{0}:{1}", timerMin, timerSec);
-
-					}
-					else if (timerHrs <= 0 && timerMin <= 0)
+					if (timerHrs <= 0 && timerMin <= 0)
 					{
 						numbersLabel.Text = String.Format("{0} sec", timerSec);
-
+					}
+					else if (timerHrs <= 0)
+					{
+						numbersLabel.Text = String.Format("{0}:{1}", timerMin, timerSec);
 					}
 					else 
-					{
-						numbersLabel.Text = String.Format("{0}:{1}:{2}", timerHrs, timerMin, timerSec);	
+					{ 
+						numbersLabel.Text = String.Format("{0}:{1}:{2}", timerHrs, timerMin, timerSec);
 					}
-
-					toggleStartButton.SetTitle(String.Format("{0} hours {1} minutes {2} seconds",
-															 timerHrs, timerMin, timerSec), UIControlState.Normal);
-
-					toggleStartButton.SetTitleColor(UIColor.Black, UIControlState.Normal);
 				}
 				else 
 				{
@@ -223,11 +308,25 @@ namespace TestTimer
 			_timer.Fire();
 
 			stopped = false;
+		}
 
+		private void Pause()
+		{ 
+			_timer.Invalidate();
+
+			togglePauseButton.Hidden = true;
+			toggleResumeButton.Hidden = false;
+
+			resume = true;
 		}
 
 		private void Resume() 
 		{
+			_timer.Dispose();
+
+			toggleResumeButton.Hidden = true;
+			togglePauseButton.Hidden = false;
+
 			_timer = NSTimer.CreateRepeatingScheduledTimer(TimeSpan.FromMilliseconds(1250), (obj) =>
 			{
 				if (secondsLeft > 0)
@@ -238,25 +337,18 @@ namespace TestTimer
 					timerSec = (secondsLeft % 3600) % 60;
 
 
-					if (timerHrs <= 0)
-					{
-						numbersLabel.Text = String.Format("{0}:{1}", timerMin, timerSec);
-
-					}
-					else if (timerHrs <= 0 && timerMin <= 0)
+					if (timerHrs <= 0 && timerMin <= 0)
 					{
 						numbersLabel.Text = String.Format("{0} sec", timerSec);
-
+					}
+					else if (timerHrs <= 0)
+					{
+						numbersLabel.Text = String.Format("{0}:{1}", timerMin, timerSec);
 					}
 					else
 					{
 						numbersLabel.Text = String.Format("{0}:{1}:{2}", timerHrs, timerMin, timerSec);
 					}
-
-					toggleStartButton.SetTitle(String.Format("{0} hours {1} minutes {2} seconds",
-															 timerHrs, timerMin, timerSec), UIControlState.Normal);
-
-					toggleStartButton.SetTitleColor(UIColor.Black, UIControlState.Normal);
 				}
 				else
 				{
@@ -265,6 +357,7 @@ namespace TestTimer
 				}
 			});
 
+			_timer.Fire();
 
 			resume = true;
 		}
@@ -278,14 +371,15 @@ namespace TestTimer
 			_timer.Invalidate();
 			_timer.Dispose();
 
-			toggleStartButton.SetImage(UIImage.FromBundle("GreenCircle"), UIControlState.Normal);
+			toggleStopButton.Hidden = true;
+			togglePauseButton.Hidden = true;
+			toggleResumeButton.Hidden = true;
+			toggleStartButton.Hidden = false;
+			//toggleStartButton.SetImage(UIImage.FromBundle("GreenCircle"), UIControlState.Normal);
 
 			stopped = true;
 		}
 
-		private void Reset()
-		{ 
-		}
 
 		public void ConvertToSeconds()
 		{
@@ -343,7 +437,7 @@ namespace TestTimer
 					case 1:
 						return String.Format("{0} min", row.ToString());
 					case 2:
-						return String.Format("{0} sec",row.ToString());
+						return String.Format("{0} sec", row.ToString());
 					default:
 						return null;
 				}

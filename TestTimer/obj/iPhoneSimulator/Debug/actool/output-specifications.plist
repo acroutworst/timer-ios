@@ -22,5 +22,25 @@
 			<string>RedCircle</string>
 		</array>
 	</dict>
+	<dict>
+		<key>bundle-id</key>
+		<string>com.croutworst.testtimer.asset-pack-2MUFULADLR3Z8</string>
+		<key>bundle-path</key>
+		<string>/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/actool/OnDemandResources/com.croutworst.testtimer.BlueCircle.assetpack</string>
+		<key>tags</key>
+		<array>
+			<string>BlueCircle</string>
+		</array>
+	</dict>
+	<dict>
+		<key>bundle-id</key>
+		<string>com.croutworst.testtimer.asset-pack-0VDPQGLXT9WBO</string>
+		<key>bundle-path</key>
+		<string>/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/actool/OnDemandResources/com.croutworst.testtimer.AquaCircle.assetpack</string>
+		<key>tags</key>
+		<array>
+			<string>AquaCircle</string>
+		</array>
+	</dict>
 </array>
 </plist>
