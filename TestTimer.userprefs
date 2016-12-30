@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="TestTimer/ViewController.cs">
     <Files>
       <File FileName="TestTimer/AppDelegate.cs" Line="1" Column="1" />
-      <File FileName="TestTimer/ViewController.cs" Line="114" Column="34" />
+      <File FileName="TestTimer/ViewController.cs" Line="168" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.TestTimer PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.76C252C6-0110-474C-A3A5-36937A07C7DB" />

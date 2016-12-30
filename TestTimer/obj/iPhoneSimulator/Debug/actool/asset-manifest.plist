@@ -6,6 +6,9 @@
 	<dict>
 		<key>output-files</key>
 		<array>
+			<string>/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/actool/bundle/Assets.car</string>
+			<string>/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/actool/OnDemandResources/com.croutworst.testtimer.GreenCircle.assetpack/Assets.car</string>
+			<string>/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/actool/OnDemandResources/com.croutworst.testtimer.RedCircle.assetpack/Assets.car</string>
 			<string>/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/actool/partial-info.plist</string>
 		</array>
 	</dict>

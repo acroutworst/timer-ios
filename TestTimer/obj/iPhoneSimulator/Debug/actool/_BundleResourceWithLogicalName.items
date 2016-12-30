@@ -1,4 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup />
+  <ItemGroup>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/actool/bundle/Assets.car">
+      <LogicalName>Assets.car</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/actool/OnDemandResources/com.croutworst.testtimer.GreenCircle.assetpack/Assets.car">
+      <LogicalName>OnDemandResources/com.croutworst.testtimer.GreenCircle.assetpack/Assets.car</LogicalName>
+      <Optimize>false</Optimize>
+      <OutputPath>bin/iPhoneSimulator/Debug/OnDemandResources/com.croutworst.testtimer.GreenCircle.assetpack/Assets.car</OutputPath>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/actool/OnDemandResources/com.croutworst.testtimer.RedCircle.assetpack/Assets.car">
+      <LogicalName>OnDemandResources/com.croutworst.testtimer.RedCircle.assetpack/Assets.car</LogicalName>
+      <Optimize>false</Optimize>
+      <OutputPath>bin/iPhoneSimulator/Debug/OnDemandResources/com.croutworst.testtimer.RedCircle.assetpack/Assets.car</OutputPath>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/actool/OnDemandResources/com.croutworst.testtimer.GreenCircle.assetpack/Info.plist">
+      <LogicalName>OnDemandResources/com.croutworst.testtimer.GreenCircle.assetpack/Info.plist</LogicalName>
+      <Optimize>false</Optimize>
+      <OutputPath>bin/iPhoneSimulator/Debug/OnDemandResources/com.croutworst.testtimer.GreenCircle.assetpack/Info.plist</OutputPath>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/actool/OnDemandResources/com.croutworst.testtimer.RedCircle.assetpack/Info.plist">
+      <LogicalName>OnDemandResources/com.croutworst.testtimer.RedCircle.assetpack/Info.plist</LogicalName>
+      <Optimize>false</Optimize>
+      <OutputPath>bin/iPhoneSimulator/Debug/OnDemandResources/com.croutworst.testtimer.RedCircle.assetpack/Info.plist</OutputPath>
+    </_BundleResourceWithLogicalName>
+  </ItemGroup>
 </Project>

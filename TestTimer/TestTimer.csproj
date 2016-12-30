@@ -93,9 +93,19 @@
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\GreenCircle.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\GreenCircle.imageset\GreenCircle%401x.png" />
+    <ImageAsset Include="Assets.xcassets\GreenCircle.imageset\GreenCircle%402x.png" />
+    <ImageAsset Include="Assets.xcassets\GreenCircle.imageset\GreenCircle%403x.png" />
+    <ImageAsset Include="Assets.xcassets\RedCircle.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\RedCircle.imageset\RedCircle%402x.png" />
+    <ImageAsset Include="Assets.xcassets\RedCircle.imageset\RedCircle%403x.png" />
+    <ImageAsset Include="Assets.xcassets\RedCircle.imageset\RedCircle.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+    <Folder Include="Assets.xcassets\GreenCircle.imageset\" />
+    <Folder Include="Assets.xcassets\RedCircle.imageset\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -112,6 +122,14 @@
     <Compile Include="ViewController.designer.cs">
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\GreenCircle%402x.png" />
+    <BundleResource Include="Resources\GreenCircle%403x.png" />
+    <BundleResource Include="Resources\GreenCircle%401x.png" />
+    <BundleResource Include="Resources\RedCircle%401x.png" />
+    <BundleResource Include="Resources\RedCircle%402x.png" />
+    <BundleResource Include="Resources\RedCircle%403x.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

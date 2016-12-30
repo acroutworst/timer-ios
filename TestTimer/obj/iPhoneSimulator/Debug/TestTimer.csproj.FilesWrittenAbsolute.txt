@@ -7,3 +7,13 @@
 /Users/adamc/Projects/TestTimer/TestTimer/bin/iPhoneSimulator/Debug/TestTimer.exe
 /Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/TestTimer.exe
 /Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/TestTimer.exe.mdb
+/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/optimized/green_circle.png
+/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/optimized/green_circle@2x.png
+/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/optimized/green_circle@3x.png
+/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/optimized/greencircle.png
+/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/optimized/GreenCircle@2x.png
+/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/optimized/GreenCircle@3x.png
+/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/optimized/GreenCircle@1x.png
+/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/optimized/RedCircle@1x.png
+/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/optimized/RedCircle@2x.png
+/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/optimized/RedCircle@3x.png

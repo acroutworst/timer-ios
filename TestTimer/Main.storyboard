@@ -36,4 +36,10 @@
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="GreenCircle" width="57" height="57"/>
+        <image name="RedCircle" width="57" height="57"/>
+        <image name="GreenCircle.png" width="57" height="57"/>
+        <image name="RedCircle.png" width="57" height="57"/>
+    </resources>
 </document>
