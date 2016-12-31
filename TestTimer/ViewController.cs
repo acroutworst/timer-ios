@@ -6,6 +6,7 @@ using CoreGraphics;
 using Foundation;
 using AudioToolbox;
 using AVFoundation;
+using TestTimer;
 
 namespace TestTimer
 {
@@ -32,9 +33,8 @@ namespace TestTimer
 
 		public NSUrl url;
 		public SystemSound systemSound;
-		AVPlayerItem playerItem;
-		AVPlayer player;
-		AVPlayerLayer playerLayer;
+
+		float red, green, blue;
 
 		StatusPickerViewModel statusPickerViewModel;
 
@@ -61,6 +61,19 @@ namespace TestTimer
 		}
 
 		/// <summary>
+		/// Converts the hex to rgb.
+		/// </summary>
+		/// <param name="hexValue">Hex value.</param>
+		public void ConvertHexToRGB(String hexValue) 
+		{
+			var colorReplace = hexValue.Replace("#", "");
+
+			red = Convert.ToInt32(colorReplace.Substring(0, 2), 16) / 255f;
+			green = Convert.ToInt32(colorReplace.Substring(2, 2), 16) / 255f;
+			blue = Convert.ToInt32(colorReplace.Substring(4, 2), 16) / 255f;
+		}
+
+		/// <summary>
 		/// Setups the user interface.
 		/// </summary>
 		private void SetupUserInterface()
@@ -70,9 +83,10 @@ namespace TestTimer
 				Frame = new CGRect(View.Bounds.GetMidX() - 0f, View.Bounds.Top + 200, 35, 35),
 			};
 			toggleStartButton.Layer.CornerRadius = 35;
+			ConvertHexToRGB("#50df68");
+			toggleStartButton.BackgroundColor = UIColor.FromRGB(red, green, blue);
 			toggleStartButton.BackgroundColor = UIColor.Green;
-			toggleStartButton.Layer.BorderWidth = 1;
-			toggleStartButton.SetTitle("Start", UIControlState.Normal);
+            toggleStartButton.SetTitle("Start", UIControlState.Normal);
 			toggleStartButton.TranslatesAutoresizingMaskIntoConstraints = false;
 
 			toggleStopButton = new UIButton()
@@ -80,8 +94,8 @@ namespace TestTimer
 				Frame = new CGRect(View.Bounds.GetMidX() - 0f, View.Bounds.Top + 200, 35, 35),
 			};
 			toggleStopButton.Layer.CornerRadius = 35;
-			toggleStopButton.BackgroundColor = UIColor.Red;
-			toggleStopButton.Layer.BorderWidth = 1;
+			ConvertHexToRGB("#ef4339");
+			toggleStopButton.BackgroundColor = UIColor.FromRGB(red, green, blue);
 			toggleStopButton.SetTitle("Stop", UIControlState.Normal);
 			toggleStopButton.TranslatesAutoresizingMaskIntoConstraints = false;
 			toggleStopButton.Hidden = true;
@@ -91,8 +105,8 @@ namespace TestTimer
 				Frame = new CGRect(View.Bounds.GetMidX() - 0f, View.Bounds.Top + 200, 35, 35),
 			};
 			togglePauseButton.Layer.CornerRadius = 35;
-			togglePauseButton.BackgroundColor = UIColor.Gray;
-			togglePauseButton.Layer.BorderWidth = 1;
+			ConvertHexToRGB("#48cdcb");
+			togglePauseButton.BackgroundColor = UIColor.FromRGB(red, green, blue);
 			togglePauseButton.SetTitle("Pause", UIControlState.Normal);
 			togglePauseButton.TranslatesAutoresizingMaskIntoConstraints = false;
 			togglePauseButton.Hidden = true;
@@ -102,9 +116,9 @@ namespace TestTimer
 				Frame = new CGRect(View.Bounds.GetMidX() - 0f, View.Bounds.Top + 200, 35, 35),
 			};
 			toggleResumeButton.Layer.CornerRadius = 35;
-			toggleResumeButton.BackgroundColor = UIColor.Green;
-			toggleResumeButton.Layer.BorderWidth = 1;
-			toggleResumeButton.SetTitle("Start", UIControlState.Normal);
+			ConvertHexToRGB("#48cdcb");
+			toggleResumeButton.BackgroundColor = UIColor.FromRGB(red, green, blue);
+			toggleResumeButton.SetTitle("Resume", UIControlState.Normal);
 			toggleResumeButton.TranslatesAutoresizingMaskIntoConstraints = false;
 			toggleResumeButton.Hidden = true;
 
@@ -124,7 +138,7 @@ namespace TestTimer
 				picker,
 				NSLayoutAttribute.Bottom,
 				1,
-				200
+				150
 			);
 
 			var constraintStart1 = NSLayoutConstraint.Create(
@@ -139,7 +153,7 @@ namespace TestTimer
 
 			var constraintStart2 = NSLayoutConstraint.Create(
 				toggleStartButton,
-					NSLayoutAttribute.Right,
+				NSLayoutAttribute.Right,
 				NSLayoutRelation.Equal,
 				this.View,
 				NSLayoutAttribute.CenterX,
@@ -147,22 +161,12 @@ namespace TestTimer
 				35
 			);
 
-			var constraintStart3 = NSLayoutConstraint.Create(
-				toggleStartButton,
-					NSLayoutAttribute.Top,
-				NSLayoutRelation.Equal,
-				picker,
-					NSLayoutAttribute.Bottom,
-				1,
-				35
-			);
-
 			var constraintStart4 = NSLayoutConstraint.Create(
 				toggleStartButton,
-					NSLayoutAttribute.Bottom,
+				NSLayoutAttribute.Bottom,
 				NSLayoutRelation.Equal,
-					toggleStartButton,
-					NSLayoutAttribute.Top,
+				toggleStartButton,
+				NSLayoutAttribute.Top,
 				1,
 				70
 			);
@@ -188,43 +192,44 @@ namespace TestTimer
 			);
 
 			var constraintStop2 = NSLayoutConstraint.Create(
-	toggleStopButton,
-NSLayoutAttribute.Left,
-NSLayoutRelation.Equal,
-	toggleStopButton,
-NSLayoutAttribute.CenterX,
-1,
--35
-
-);
-
-			var constraintStop3 = NSLayoutConstraint.Create(
-		toggleStopButton,
-				NSLayoutAttribute.Right,
-		NSLayoutRelation.Equal,
+				toggleStopButton,
+				NSLayoutAttribute.Left,
+				NSLayoutRelation.Equal,
 				toggleStopButton,
 				NSLayoutAttribute.CenterX,
-		1,
-		35
-	);
+				1,
+				-35
+			);
+
+			var constraintStop3 = NSLayoutConstraint.Create(
+				toggleStopButton,
+				NSLayoutAttribute.Right,
+				NSLayoutRelation.Equal,
+				toggleStopButton,
+				NSLayoutAttribute.CenterX,
+				1,
+				35
+			);
 
 			var constraintStop4 = NSLayoutConstraint.Create(
-toggleStopButton,
+				toggleStopButton,
 				NSLayoutAttribute.Bottom,
-NSLayoutRelation.Equal,
+				NSLayoutRelation.Equal,
 				toggleStopButton,
 				NSLayoutAttribute.Top,
-1,
-70);
+				1,
+				70
+			);
+			
 			var constraintPause = NSLayoutConstraint.Create(
-							togglePauseButton,
-							NSLayoutAttribute.Top,
-							NSLayoutRelation.Equal,
-							picker,
-							NSLayoutAttribute.Bottom,
-							1,
-							150
-						);
+				togglePauseButton,
+				NSLayoutAttribute.Top,
+				NSLayoutRelation.Equal,
+				picker,
+				NSLayoutAttribute.Bottom,
+				1,
+				150
+			);
 
 			var constraintPause1 = NSLayoutConstraint.Create(
 				togglePauseButton,
@@ -238,42 +243,42 @@ NSLayoutRelation.Equal,
 
 			var constraintPause2 = NSLayoutConstraint.Create(
 				togglePauseButton,
-		NSLayoutAttribute.Left,
-NSLayoutRelation.Equal,
-				togglePauseButton,
-		NSLayoutAttribute.CenterX,
-1,
--35
-
-);
-
-			var constraintPause3 = NSLayoutConstraint.Create(
-		togglePauseButton,
-				NSLayoutAttribute.Right,
-		NSLayoutRelation.Equal,
+				NSLayoutAttribute.Left,
+				NSLayoutRelation.Equal,
 				togglePauseButton,
 				NSLayoutAttribute.CenterX,
-		1,
-		35
-	);
+				1,
+				-35
+			);
+
+			var constraintPause3 = NSLayoutConstraint.Create(
+				togglePauseButton,
+				NSLayoutAttribute.Right,
+				NSLayoutRelation.Equal,
+				togglePauseButton,
+				NSLayoutAttribute.CenterX,
+				1,
+				35
+			);
 
 			var constraintPause4 = NSLayoutConstraint.Create(
-togglePauseButton,
+				togglePauseButton,
 				NSLayoutAttribute.Bottom,
-NSLayoutRelation.Equal,
+				NSLayoutRelation.Equal,
 				togglePauseButton,
 				NSLayoutAttribute.Top,
-1,
-70);
+				1,
+				70
+			);
 			var constraintResume = NSLayoutConstraint.Create(
-							toggleResumeButton,
-							NSLayoutAttribute.Top,
-							NSLayoutRelation.Equal,
-							picker,
-							NSLayoutAttribute.Bottom,
-							1,
-							150
-						);
+				toggleResumeButton,
+				NSLayoutAttribute.Top,
+				NSLayoutRelation.Equal,
+				picker,
+				NSLayoutAttribute.Bottom,
+				1,
+				150
+			);
 
 			var constraintResume1 = NSLayoutConstraint.Create(
 				toggleResumeButton,
@@ -286,34 +291,35 @@ NSLayoutRelation.Equal,
 			);
 
 			var constraintResume2 = NSLayoutConstraint.Create(
-		toggleResumeButton,
+				toggleResumeButton,
 				NSLayoutAttribute.Left,
-		NSLayoutRelation.Equal,
+				NSLayoutRelation.Equal,
 				toggleResumeButton,
 				NSLayoutAttribute.CenterX,
-		1,
-		-35
+				1,
+				-35
 
-	);
+			);
 
 			var constraintResume3 = NSLayoutConstraint.Create(
-		toggleResumeButton,
+				toggleResumeButton,
 				NSLayoutAttribute.Right,
-		NSLayoutRelation.Equal,
+				NSLayoutRelation.Equal,
 				toggleResumeButton,
 				NSLayoutAttribute.CenterX,
-		1,
-		35
-	);
+				1,
+				35
+			);
 
 			var constraintResume4 = NSLayoutConstraint.Create(
-toggleResumeButton,
+				toggleResumeButton,
 				NSLayoutAttribute.Bottom,
-NSLayoutRelation.Equal,
+				NSLayoutRelation.Equal,
 				toggleResumeButton,
 				NSLayoutAttribute.Top,
-1,
-70);
+				1,
+				70
+			);
 
 			var constraintsNumber = NSLayoutConstraint.Create(
 				numbersLabel,
@@ -367,7 +373,6 @@ NSLayoutRelation.Equal,
 			View.AddConstraint(constraintStart);
 			View.AddConstraint(constraintStart1);
 			View.AddConstraint(constraintStart2);
-			View.AddConstraint(constraintStart3);
 			View.AddConstraint(constraintStart4);
 			View.AddConstraint(constraintStop);
 			View.AddConstraint(constraintStop1);
@@ -386,174 +391,6 @@ NSLayoutRelation.Equal,
 			View.AddConstraint(constraintResume4);
 			View.AddConstraint(constraintsNumber);
 			View.AddConstraint(constraintsNumber1);
-
-			//toggleStartButton = new UIButton();
-			//toggleStartButton.SetImage(UIImage.FromBundle("GreenCircle"), UIControlState.Normal);
-
-			//toggleStopButton = new UIButton();
-			//toggleStopButton.SetImage(UIImage.FromBundle("RedCircle"), UIControlState.Normal);
-			//toggleStopButton.Hidden = true;
-
-			//togglePauseButton = new UIButton();
-			//togglePauseButton.SetImage(UIImage.FromBundle("BlueCircle"), UIControlState.Normal);
-			//togglePauseButton.Hidden = true;
-
-			//toggleResumeButton = new UIButton();
-			//toggleResumeButton.SetImage(UIImage.FromBundle("AquaCircle"), UIControlState.Normal);
-			//toggleResumeButton.Hidden = true;
-
-			//numbersLabel = new UILabel();
-			//numbersLabel.TextColor = UIColor.DarkGray;
-			//numbersLabel.Font = UIFont.FromName("Helvetica-Bold", 75f);
-			//numbersLabel.AdjustsFontSizeToFitWidth = true;
-			//numbersLabel.Hidden = true;
-
-			//picker.TranslatesAutoresizingMaskIntoConstraints = false;
-			//toggleStartButton.TranslatesAutoresizingMaskIntoConstraints = false;
-			//toggleStopButton.TranslatesAutoresizingMaskIntoConstraints = false;
-			//togglePauseButton.TranslatesAutoresizingMaskIntoConstraints = false;
-			//toggleResumeButton.TranslatesAutoresizingMaskIntoConstraints = false;
-			//numbersLabel.TranslatesAutoresizingMaskIntoConstraints = false;
-
-			//View.Add(picker);
-			//View.Add(toggleStartButton);
-			//View.Add(togglePauseButton);
-			//View.Add(toggleResumeButton);
-			//View.Add(toggleStopButton);
-			//View.Add(numbersLabel);
-
-			//var constraints = NSLayoutConstraint.Create(
-			//	picker,
-			//	NSLayoutAttribute.Top,
-			//	NSLayoutRelation.Equal,
-			//	selectedLbl,
-			//	NSLayoutAttribute.Bottom,
-			//	1,
-			//	-25
-			//);
-
-			//var constraints1 = NSLayoutConstraint.Create(
-			//	picker,
-			//	NSLayoutAttribute.CenterX,
-			//	NSLayoutRelation.Equal,
-			//	View,
-			//	NSLayoutAttribute.CenterX,
-			//	1,
-			//	0
-			//);
-
-			//var constraintStart = NSLayoutConstraint.Create(
-			//	toggleStartButton,
-			//	NSLayoutAttribute.Top,
-			//	NSLayoutRelation.Equal,
-			//	picker,
-			//	NSLayoutAttribute.Bottom,
-			//	1,
-			//	200
-			//);
-
-			//var constraintStart1 = NSLayoutConstraint.Create(
-			//	toggleStartButton,
-			//	NSLayoutAttribute.CenterX,
-			//	NSLayoutRelation.Equal,
-			//	View,
-			//	NSLayoutAttribute.CenterX,
-			//	1,
-			//	0
-			//);
-
-			//var constraintStop = NSLayoutConstraint.Create(
-			//	toggleStopButton,
-			//	NSLayoutAttribute.Top,
-			//	NSLayoutRelation.Equal,
-			//	picker,
-			//	NSLayoutAttribute.Bottom,
-			//	1,
-			//	200
-			//);
-
-			//var constraintStop1 = NSLayoutConstraint.Create(
-			//	toggleStopButton,
-			//	NSLayoutAttribute.CenterX,
-			//	NSLayoutRelation.Equal,
-			//	View,
-			//	NSLayoutAttribute.Right,
-			//	1,
-			//	-100
-			//);
-
-			//var constraintPause = NSLayoutConstraint.Create(
-			//	togglePauseButton,
-			//	NSLayoutAttribute.Top,
-			//	NSLayoutRelation.Equal,
-			//	picker,
-			//	NSLayoutAttribute.Bottom,
-			//	1,
-			//	200
-			//);
-
-			//var constraintPause1 = NSLayoutConstraint.Create(
-			//	togglePauseButton,
-			//	NSLayoutAttribute.CenterX,
-			//	NSLayoutRelation.Equal,
-			//	View,
-			//	NSLayoutAttribute.Left,
-			//	1,
-			//	100
-			//);
-
-			//var constraintResume = NSLayoutConstraint.Create(
-			//	toggleResumeButton,
-			//	NSLayoutAttribute.Top,
-			//	NSLayoutRelation.Equal,
-			//	picker,
-			//	NSLayoutAttribute.Bottom,
-			//	1,
-			//	200
-			//);
-
-			//var constraintResume1 = NSLayoutConstraint.Create(
-			//	toggleResumeButton,
-			//	NSLayoutAttribute.CenterX,
-			//	NSLayoutRelation.Equal,
-			//	View,
-			//	NSLayoutAttribute.Left,
-			//	1,
-			//	100
-			//);
-
-			//var constraintsNumber = NSLayoutConstraint.Create(
-			//	numbersLabel,
-			//	NSLayoutAttribute.Top,
-			//	NSLayoutRelation.Equal,
-			//	selectedLbl,
-			//	NSLayoutAttribute.Bottom,
-			//	1,
-			//	50
-			//);
-
-			//var constraintsNumber1 = NSLayoutConstraint.Create(
-			//	numbersLabel,
-			//	NSLayoutAttribute.CenterX,
-			//	NSLayoutRelation.Equal,
-			//	View,
-			//	NSLayoutAttribute.CenterX,
-			//	1,
-			//	0
-			//);
-
-			//View.AddConstraint(constraints);
-			//View.AddConstraint(constraints1);
-			//View.AddConstraint(constraintStart);
-			//View.AddConstraint(constraintStart1);
-			//View.AddConstraint(constraintStop);
-			//View.AddConstraint(constraintStop1);
-			//View.AddConstraint(constraintPause);
-			//View.AddConstraint(constraintPause1);
-			//View.AddConstraint(constraintResume);
-			//View.AddConstraint(constraintResume1);
-			//View.AddConstraint(constraintsNumber);
-			//View.AddConstraint(constraintsNumber1);
 		}
 
 		/// <summary>
@@ -610,18 +447,10 @@ NSLayoutRelation.Equal,
 				}
 				else 
 				{
-					//url = NSUrl.FromString("https://s3.amazonaws.com/kargopolov/BlueCafe.mp3");
-					url = NSUrl.FromFilename("Sounds/IMG_217304691.MOV");
-					//systemSound = new SystemSound(url);
-					//systemSound.PlayAlertSound();
+					url = new NSUrl(NSBundle.MainBundle.PathForResource("Sounds/congratulations", "mp3"));
 
-					playerItem = new AVPlayerItem(url);
-					player = new AVPlayer(playerItem);
-					playerLayer = AVPlayerLayer.FromPlayer(player);
-					//playerLayer.Frame = View.Frame;
-					//View.Layer.AddSublayer(playerLayer);
-					player.Play();
-
+					systemSound = new SystemSound(url);
+					systemSound.PlayAlertSound();
 						
 					_timer.Invalidate();
 					_timer.Dispose();

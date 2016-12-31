@@ -142,6 +142,7 @@
     <Compile Include="ViewController.designer.cs">
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="Soundclip.cs" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\GreenCircle%402x.png" />
@@ -167,13 +168,16 @@
     <BundleResource Include="Resources\Icon-80%403x.png" />
     <BundleResource Include="Resources\Icon-57%403x.png" />
     <BundleResource Include="Resources\Icon-120.png" />
-    <BundleResource Include="Resources\Sounds\IMG_217304691.MOV" />
     <BundleResource Include="Resources\Top-Icon%403x.png" />
     <BundleResource Include="Resources\Top-Icon.png" />
     <BundleResource Include="Resources\Top-Icon%402x.png" />
     <BundleResource Include="Resources\Logo-Launch.png" />
     <BundleResource Include="Resources\Logo-Launch%402x.png" />
     <BundleResource Include="Resources\Logo-Launch%403x.png" />
+    <BundleResource Include="Resources\Sounds\have_a_good_time.mp3" />
+    <BundleResource Include="Resources\Sounds\its_been_a_great_success.mp3" />
+    <BundleResource Include="Resources\Sounds\congratulations.mp3" />
+    <BundleResource Include="Resources\Sounds\no_you%27re_finished.wav" />
   </ItemGroup>
   <ItemGroup>
     <ITunesArtwork Include="iTunesArtwork" />

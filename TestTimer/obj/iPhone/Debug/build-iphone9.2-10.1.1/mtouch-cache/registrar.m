@@ -1332,9 +1332,6 @@ exception_handling:;
 		{"UIFocusAnimationCoordinator", "UIKit.UIFocusAnimationCoordinator, Xamarin.iOS", NULL },
 		{"UIFocusUpdateContext", "UIKit.UIFocusUpdateContext, Xamarin.iOS", NULL },
 		{"UIFont", "UIKit.UIFont, Xamarin.iOS", NULL },
-		{"CALayer", "CoreAnimation.CALayer, Xamarin.iOS", NULL },
-		{"AVPlayerLayer", "AVFoundation.AVPlayerLayer, Xamarin.iOS", NULL },
-		{"AVPlayer", "AVFoundation.AVPlayer, Xamarin.iOS", NULL },
 		{"UILabel", "UIKit.UILabel, Xamarin.iOS", NULL },
 		{"NSIndexPath", "Foundation.NSIndexPath, Xamarin.iOS", NULL },
 		{"NSUserActivity", "Foundation.NSUserActivity, Xamarin.iOS", NULL },
@@ -1345,6 +1342,7 @@ exception_handling:;
 		{"__MonoMac_NSAsyncActionDispatcher", "Foundation.NSAsyncActionDispatcher, Xamarin.iOS", NULL },
 		{"NSAttributedString", "Foundation.NSAttributedString, Xamarin.iOS", NULL },
 		{"NSAutoreleasePool", "Foundation.NSAutoreleasePool, Xamarin.iOS", NULL },
+		{"NSBundle", "Foundation.NSBundle, Xamarin.iOS", NULL },
 		{"NSError", "Foundation.NSError, Xamarin.iOS", NULL },
 		{"NSCoder", "Foundation.NSCoder, Xamarin.iOS", NULL },
 		{"NSString", "Foundation.NSString, Xamarin.iOS", NULL },
@@ -1355,6 +1353,7 @@ exception_handling:;
 		{"NSURL", "Foundation.NSUrl, Xamarin.iOS", NULL },
 		{"UIPress", "UIKit.UIPress, Xamarin.iOS", NULL },
 		{"CKShareMetadata", "CloudKit.CKShareMetadata, Xamarin.iOS", NULL },
+		{"CALayer", "CoreAnimation.CALayer, Xamarin.iOS", NULL },
 		{"UIApplication", "UIKit.UIApplication, Xamarin.iOS", NULL },
 		{"UIBezierPath", "UIKit.UIBezierPath, Xamarin.iOS", NULL },
 		{"UIControl", "UIKit.UIControl, Xamarin.iOS", NULL },
@@ -1365,7 +1364,6 @@ exception_handling:;
 		{"NSException", "Foundation.NSException, Xamarin.iOS", NULL },
 		{"NSNull", "Foundation.NSNull, Xamarin.iOS", NULL },
 		{"UITouch", "UIKit.UITouch, Xamarin.iOS", NULL },
-		{"AVPlayerItem", "AVFoundation.AVPlayerItem, Xamarin.iOS", NULL },
 		{"UIUserNotificationSettings", "UIKit.UIUserNotificationSettings, Xamarin.iOS", NULL },
 		{"UIApplicationShortcutItem", "UIKit.UIApplicationShortcutItem, Xamarin.iOS", NULL },
 		{"UIWindow", "UIKit.UIWindow, Xamarin.iOS", NULL },
@@ -1394,7 +1392,7 @@ exception_handling:;
 		__xamarin_registration_assemblies,
 		__xamarin_class_map,
 		4,
-		58,
+		56,
 		7
 	};
 
@@ -1410,53 +1408,51 @@ void xamarin_create_classes () {
 	__xamarin_class_map [8].handle = objc_getClass ("UIFocusAnimationCoordinator");
 	__xamarin_class_map [9].handle = objc_getClass ("UIFocusUpdateContext");
 	__xamarin_class_map [10].handle = objc_getClass ("UIFont");
-	__xamarin_class_map [11].handle = objc_getClass ("CALayer");
-	__xamarin_class_map [12].handle = objc_getClass ("AVPlayerLayer");
-	__xamarin_class_map [13].handle = objc_getClass ("AVPlayer");
-	__xamarin_class_map [14].handle = objc_getClass ("UILabel");
-	__xamarin_class_map [15].handle = objc_getClass ("NSIndexPath");
-	__xamarin_class_map [16].handle = objc_getClass ("NSUserActivity");
-	__xamarin_class_map [17].handle = objc_getClass ("NSArray");
-	__xamarin_class_map [18].handle = objc_getClass ("UILocalNotification");
-	__xamarin_class_map [19].handle = objc_getClass ("__MonoMac_NSActionDispatcher");
-	__xamarin_class_map [20].handle = objc_getClass ("__Xamarin_NSTimerActionDispatcher");
-	__xamarin_class_map [21].handle = objc_getClass ("__MonoMac_NSAsyncActionDispatcher");
-	__xamarin_class_map [22].handle = objc_getClass ("NSAttributedString");
-	__xamarin_class_map [23].handle = objc_getClass ("NSAutoreleasePool");
-	__xamarin_class_map [24].handle = objc_getClass ("NSError");
-	__xamarin_class_map [25].handle = objc_getClass ("NSCoder");
-	__xamarin_class_map [26].handle = objc_getClass ("NSString");
-	__xamarin_class_map [27].handle = objc_getClass ("NSLayoutConstraint");
-	__xamarin_class_map [28].handle = objc_getClass ("NSRunLoop");
-	__xamarin_class_map [29].handle = objc_getClass ("NSTimer");
-	__xamarin_class_map [30].handle = objc_getClass ("UIPickerView");
-	__xamarin_class_map [31].handle = objc_getClass ("NSURL");
-	__xamarin_class_map [32].handle = objc_getClass ("UIPress");
-	__xamarin_class_map [33].handle = objc_getClass ("CKShareMetadata");
-	__xamarin_class_map [34].handle = objc_getClass ("UIApplication");
-	__xamarin_class_map [35].handle = objc_getClass ("UIBezierPath");
-	__xamarin_class_map [36].handle = objc_getClass ("UIControl");
-	__xamarin_class_map [37].handle = objc_getClass ("UIButton");
-	__xamarin_class_map [38].handle = objc_getClass ("UIColor");
-	__xamarin_class_map [39].handle = objc_getClass ("UIKit_UIControlEventProxy");
-	__xamarin_class_map [40].handle = objc_getClass ("UIDevice");
-	__xamarin_class_map [41].handle = objc_getClass ("NSException");
-	__xamarin_class_map [42].handle = objc_getClass ("NSNull");
-	__xamarin_class_map [43].handle = objc_getClass ("UITouch");
-	__xamarin_class_map [44].handle = objc_getClass ("AVPlayerItem");
-	__xamarin_class_map [45].handle = objc_getClass ("UIUserNotificationSettings");
-	__xamarin_class_map [46].handle = objc_getClass ("UIApplicationShortcutItem");
-	__xamarin_class_map [47].handle = objc_getClass ("UIWindow");
-	__xamarin_class_map [48].handle = objc_getClass ("UIGestureRecognizer");
-	__xamarin_class_map [49].handle = objc_getClass ("NSData");
-	__xamarin_class_map [50].handle = objc_getClass ("NSDictionary");
-	__xamarin_class_map [51].handle = [AppDelegate class];
-	__xamarin_class_map [52].handle = [TestTimer_ViewController_StatusPickerViewModel class];
-	__xamarin_class_map [53].handle = [ViewController class];
-	__xamarin_class_map [54].handle = objc_getClass ("__UIGestureRecognizerToken");
-	__xamarin_class_map [55].handle = objc_getClass ("__UIGestureRecognizerParameterlessToken");
-	__xamarin_class_map [56].handle = objc_getClass ("__UIGestureRecognizerParametrizedToken");
-	__xamarin_class_map [57].handle = objc_getClass ("__NSObject_Disposer");
+	__xamarin_class_map [11].handle = objc_getClass ("UILabel");
+	__xamarin_class_map [12].handle = objc_getClass ("NSIndexPath");
+	__xamarin_class_map [13].handle = objc_getClass ("NSUserActivity");
+	__xamarin_class_map [14].handle = objc_getClass ("NSArray");
+	__xamarin_class_map [15].handle = objc_getClass ("UILocalNotification");
+	__xamarin_class_map [16].handle = objc_getClass ("__MonoMac_NSActionDispatcher");
+	__xamarin_class_map [17].handle = objc_getClass ("__Xamarin_NSTimerActionDispatcher");
+	__xamarin_class_map [18].handle = objc_getClass ("__MonoMac_NSAsyncActionDispatcher");
+	__xamarin_class_map [19].handle = objc_getClass ("NSAttributedString");
+	__xamarin_class_map [20].handle = objc_getClass ("NSAutoreleasePool");
+	__xamarin_class_map [21].handle = objc_getClass ("NSBundle");
+	__xamarin_class_map [22].handle = objc_getClass ("NSError");
+	__xamarin_class_map [23].handle = objc_getClass ("NSCoder");
+	__xamarin_class_map [24].handle = objc_getClass ("NSString");
+	__xamarin_class_map [25].handle = objc_getClass ("NSLayoutConstraint");
+	__xamarin_class_map [26].handle = objc_getClass ("NSRunLoop");
+	__xamarin_class_map [27].handle = objc_getClass ("NSTimer");
+	__xamarin_class_map [28].handle = objc_getClass ("UIPickerView");
+	__xamarin_class_map [29].handle = objc_getClass ("NSURL");
+	__xamarin_class_map [30].handle = objc_getClass ("UIPress");
+	__xamarin_class_map [31].handle = objc_getClass ("CKShareMetadata");
+	__xamarin_class_map [32].handle = objc_getClass ("CALayer");
+	__xamarin_class_map [33].handle = objc_getClass ("UIApplication");
+	__xamarin_class_map [34].handle = objc_getClass ("UIBezierPath");
+	__xamarin_class_map [35].handle = objc_getClass ("UIControl");
+	__xamarin_class_map [36].handle = objc_getClass ("UIButton");
+	__xamarin_class_map [37].handle = objc_getClass ("UIColor");
+	__xamarin_class_map [38].handle = objc_getClass ("UIKit_UIControlEventProxy");
+	__xamarin_class_map [39].handle = objc_getClass ("UIDevice");
+	__xamarin_class_map [40].handle = objc_getClass ("NSException");
+	__xamarin_class_map [41].handle = objc_getClass ("NSNull");
+	__xamarin_class_map [42].handle = objc_getClass ("UITouch");
+	__xamarin_class_map [43].handle = objc_getClass ("UIUserNotificationSettings");
+	__xamarin_class_map [44].handle = objc_getClass ("UIApplicationShortcutItem");
+	__xamarin_class_map [45].handle = objc_getClass ("UIWindow");
+	__xamarin_class_map [46].handle = objc_getClass ("UIGestureRecognizer");
+	__xamarin_class_map [47].handle = objc_getClass ("NSData");
+	__xamarin_class_map [48].handle = objc_getClass ("NSDictionary");
+	__xamarin_class_map [49].handle = [AppDelegate class];
+	__xamarin_class_map [50].handle = [TestTimer_ViewController_StatusPickerViewModel class];
+	__xamarin_class_map [51].handle = [ViewController class];
+	__xamarin_class_map [52].handle = objc_getClass ("__UIGestureRecognizerToken");
+	__xamarin_class_map [53].handle = objc_getClass ("__UIGestureRecognizerParameterlessToken");
+	__xamarin_class_map [54].handle = objc_getClass ("__UIGestureRecognizerParametrizedToken");
+	__xamarin_class_map [55].handle = objc_getClass ("__NSObject_Disposer");
 	xamarin_add_registration_map (&__xamarin_registration_map);
 }
 

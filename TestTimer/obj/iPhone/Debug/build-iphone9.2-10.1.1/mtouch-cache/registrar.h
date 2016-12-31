@@ -11,7 +11,6 @@
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
 #import <QuartzCore/CAEmitterBehavior.h>
-#import <AVFoundation/AVFoundation.h>
 #import <CloudKit/CloudKit.h>
 #import <CoreGraphics/CoreGraphics.h>
 
