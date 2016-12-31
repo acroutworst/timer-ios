@@ -4,9 +4,9 @@
 <array>
 	<dict>
 		<key>bundle-id</key>
-		<string>com.croutworst.testtimer.asset-pack-091BIG313I7V2</string>
+		<string>com.croutworst.timer.asset-pack-091BIG313I7V2</string>
 		<key>bundle-path</key>
-		<string>/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/actool/OnDemandResources/com.croutworst.testtimer.GreenCircle.assetpack</string>
+		<string>/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/actool/OnDemandResources/com.croutworst.timer.GreenCircle.assetpack</string>
 		<key>tags</key>
 		<array>
 			<string>GreenCircle</string>
@@ -14,9 +14,9 @@
 	</dict>
 	<dict>
 		<key>bundle-id</key>
-		<string>com.croutworst.testtimer.asset-pack-3DMCDQYAZTZZQ</string>
+		<string>com.croutworst.timer.asset-pack-3DMCDQYAZTZZQ</string>
 		<key>bundle-path</key>
-		<string>/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/actool/OnDemandResources/com.croutworst.testtimer.RedCircle.assetpack</string>
+		<string>/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/actool/OnDemandResources/com.croutworst.timer.RedCircle.assetpack</string>
 		<key>tags</key>
 		<array>
 			<string>RedCircle</string>
@@ -24,9 +24,9 @@
 	</dict>
 	<dict>
 		<key>bundle-id</key>
-		<string>com.croutworst.testtimer.asset-pack-2MUFULADLR3Z8</string>
+		<string>com.croutworst.timer.asset-pack-2MUFULADLR3Z8</string>
 		<key>bundle-path</key>
-		<string>/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/actool/OnDemandResources/com.croutworst.testtimer.BlueCircle.assetpack</string>
+		<string>/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/actool/OnDemandResources/com.croutworst.timer.BlueCircle.assetpack</string>
 		<key>tags</key>
 		<array>
 			<string>BlueCircle</string>
@@ -34,9 +34,9 @@
 	</dict>
 	<dict>
 		<key>bundle-id</key>
-		<string>com.croutworst.testtimer.asset-pack-0VDPQGLXT9WBO</string>
+		<string>com.croutworst.timer.asset-pack-0VDPQGLXT9WBO</string>
 		<key>bundle-path</key>
-		<string>/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/actool/OnDemandResources/com.croutworst.testtimer.AquaCircle.assetpack</string>
+		<string>/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/actool/OnDemandResources/com.croutworst.timer.AquaCircle.assetpack</string>
 		<key>tags</key>
 		<array>
 			<string>AquaCircle</string>

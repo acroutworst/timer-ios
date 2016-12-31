@@ -18,8 +18,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="159" y="74" width="282" height="39"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="223" y="54" width="154" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -28,7 +28,7 @@
                         </subviews>
                     </view>
                     <connections>
-                        <outlet property="selectedLbl" destination="5" id="name-outlet-5"/>
+                        <outlet property="selectedLbl" destination="3" id="name-outlet-3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -41,5 +41,10 @@
         <image name="RedCircle" width="57" height="57"/>
         <image name="GreenCircle.png" width="57" height="57"/>
         <image name="RedCircle.png" width="57" height="57"/>
+        <image name="BlueCircle" width="57" height="57"/>
+        <image name="AquaCircle" width="57" height="57"/>
+        <image name="AquaCircle.png" width="57" height="57"/>
+        <image name="BlueCircle.png" width="57" height="57"/>
+        <image name="Timr.png" width="645" height="731"/>
     </resources>
 </document>

@@ -15,7 +15,7 @@
 	--sdk \
 	10.2 \
 	--targetver \
-	10.2 \
+	9.0 \
 	--http-message-handler=HttpClientHandler \
 	--tls-provider=default \
 	--abi=x86_64 \
