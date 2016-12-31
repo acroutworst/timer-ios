@@ -171,6 +171,9 @@
     <BundleResource Include="Resources\Top-Icon%403x.png" />
     <BundleResource Include="Resources\Top-Icon.png" />
     <BundleResource Include="Resources\Top-Icon%402x.png" />
+    <BundleResource Include="Resources\Logo-Launch.png" />
+    <BundleResource Include="Resources\Logo-Launch%402x.png" />
+    <BundleResource Include="Resources\Logo-Launch%403x.png" />
   </ItemGroup>
   <ItemGroup>
     <ITunesArtwork Include="iTunesArtwork" />

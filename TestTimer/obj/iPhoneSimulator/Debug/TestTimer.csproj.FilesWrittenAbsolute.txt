@@ -34,3 +34,6 @@
 /Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/optimized/Icon-80@3x.png
 /Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/optimized/Icon-57@3x.png
 /Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/optimized/Icon-120.png
+/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/optimized/Top-Icon@3x.png
+/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/optimized/Top-Icon.png
+/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhoneSimulator/Debug/optimized/Top-Icon@2x.png

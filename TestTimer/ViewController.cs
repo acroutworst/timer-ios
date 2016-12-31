@@ -355,7 +355,6 @@ NSLayoutRelation.Equal,
 				0
 			);
 
-
 			View.Add(picker);
 			View.Add(toggleStartButton);
 			View.Add(togglePauseButton);
@@ -574,10 +573,10 @@ NSLayoutRelation.Equal,
 		private void Start() 
 		{
 			picker.Hidden = true;
-			numbersLabel.Hidden = false;
-
 			toggleStartButton.Hidden = true;
 			toggleResumeButton.Hidden = true;
+
+			numbersLabel.Hidden = false;
 			toggleStopButton.Hidden = false;
 			togglePauseButton.Hidden = false;
 

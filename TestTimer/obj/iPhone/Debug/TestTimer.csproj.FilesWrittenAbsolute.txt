@@ -43,3 +43,9 @@
 /Users/adamc/Projects/TestTimer/TestTimer/obj/iPhone/Debug/build-iphone9.2-10.1.1/optimized/Icon-80@3x.png
 /Users/adamc/Projects/TestTimer/TestTimer/obj/iPhone/Debug/build-iphone9.2-10.1.1/optimized/Icon-57@3x.png
 /Users/adamc/Projects/TestTimer/TestTimer/obj/iPhone/Debug/build-iphone9.2-10.1.1/optimized/Icon-120.png
+/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhone/Debug/build-iphone9.2-10.1.1/optimized/Top-Icon@3x.png
+/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhone/Debug/build-iphone9.2-10.1.1/optimized/Top-Icon.png
+/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhone/Debug/build-iphone9.2-10.1.1/optimized/Top-Icon@2x.png
+/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhone/Debug/build-iphone9.2-10.1.1/optimized/Logo-Launch.png
+/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhone/Debug/build-iphone9.2-10.1.1/optimized/Logo-Launch@2x.png
+/Users/adamc/Projects/TestTimer/TestTimer/obj/iPhone/Debug/build-iphone9.2-10.1.1/optimized/Logo-Launch@3x.png

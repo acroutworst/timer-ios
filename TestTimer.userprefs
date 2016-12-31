@@ -2,10 +2,10 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="TestTimer/ViewController.cs">
     <Files>
       <File FileName="TestTimer/AppDelegate.cs" Line="1" Column="1" />
-      <File FileName="TestTimer/ViewController.cs" Line="621" Column="1" />
+      <File FileName="TestTimer/ViewController.cs" Line="695" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.TestTimer PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
+  <MonoDevelop.Ide.ItemProperties.TestTimer PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.7200b48cf7fb5b82ea94454849d9b752ed7ba581" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

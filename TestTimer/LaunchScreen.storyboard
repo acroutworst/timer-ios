@@ -13,16 +13,23 @@
                         <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleAspectFit" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <view key="view" contentMode="scaleAspectFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" customColorSpace="sRGB" colorSpace="calibratedRGB" red="0.20392156862745098" green="0.64313725490196083" blue="0.73333333333333328" alpha="1"/>
+                        <color key="backgroundColor" customColorSpace="sRGB" colorSpace="calibratedRGB" red="0.24313725490196078" green="0.70588235294117652" blue="0.78431372549019607" alpha="1"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="3" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" image="Icon.png">
-                                <rect key="frame" x="231" y="107" width="138" height="149"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="38" translatesAutoresizingMaskIntoConstraints="NO" image="Logo-Launch.png">
+                                <rect key="frame" x="148" y="152" width="118" height="119"/>
+                                <constraints>
+                                    <constraint id="41" firstAttribute="width" constant="118"/>
+                                    <constraint id="42" firstAttribute="height" constant="119"/>
+                                </constraints>
                             </imageView>
                         </subviews>
+                        <constraints>
+                            <constraint id="39" firstItem="Ze5-6b-2t3" firstAttribute="trailing" secondItem="38" secondAttribute="trailing" constant="148"/>
+                            <constraint id="40" firstItem="38" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="152"/>
+                        </constraints>
                     </view>
                     <connections/>
                 </viewController>
@@ -45,5 +52,10 @@
         <image name="Icon-80.png" width="40" height="40"/>
         <image name="Icon-120.png" width="60" height="60"/>
         <image name="Icon-57.png" width="57" height="57"/>
+        <image name="Top-Icon.png" width="461" height="437"/>
+        <image name="Logo-Launch.png" width="466" height="437"/>
     </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedScreenMetrics key="destination" type="retina55"/>
+    </simulatedMetricsContainer>
 </document>

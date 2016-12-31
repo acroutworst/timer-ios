@@ -46,6 +46,11 @@
       <Optimize>false</Optimize>
       <OutputPath>bin/iPhoneSimulator/Debug/OnDemandResources/com.croutworst.timer.GreenCircle.assetpack/Assets.car</OutputPath>
     </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/actool/OnDemandResources/com.croutworst.timer.RedCircle.assetpack/Assets.car">
+      <LogicalName>OnDemandResources/com.croutworst.timer.RedCircle.assetpack/Assets.car</LogicalName>
+      <Optimize>false</Optimize>
+      <OutputPath>bin/iPhoneSimulator/Debug/OnDemandResources/com.croutworst.timer.RedCircle.assetpack/Assets.car</OutputPath>
+    </_BundleResourceWithLogicalName>
     <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/actool/OnDemandResources/com.croutworst.timer.AquaCircle.assetpack/Assets.car">
       <LogicalName>OnDemandResources/com.croutworst.timer.AquaCircle.assetpack/Assets.car</LogicalName>
       <Optimize>false</Optimize>
@@ -55,11 +60,6 @@
       <LogicalName>OnDemandResources/com.croutworst.timer.BlueCircle.assetpack/Assets.car</LogicalName>
       <Optimize>false</Optimize>
       <OutputPath>bin/iPhoneSimulator/Debug/OnDemandResources/com.croutworst.timer.BlueCircle.assetpack/Assets.car</OutputPath>
-    </_BundleResourceWithLogicalName>
-    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/actool/OnDemandResources/com.croutworst.timer.RedCircle.assetpack/Assets.car">
-      <LogicalName>OnDemandResources/com.croutworst.timer.RedCircle.assetpack/Assets.car</LogicalName>
-      <Optimize>false</Optimize>
-      <OutputPath>bin/iPhoneSimulator/Debug/OnDemandResources/com.croutworst.timer.RedCircle.assetpack/Assets.car</OutputPath>
     </_BundleResourceWithLogicalName>
     <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/actool/OnDemandResources/com.croutworst.timer.GreenCircle.assetpack/Info.plist">
       <LogicalName>OnDemandResources/com.croutworst.timer.GreenCircle.assetpack/Info.plist</LogicalName>

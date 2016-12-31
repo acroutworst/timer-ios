@@ -1809,7 +1809,7 @@ ldr x0, [x16, #272]
 .word 0xf9400042
 .word 0xf9413850
 .word 0xd63f0200
-.loc 3 88 0
+.loc 3 89 0
 .word 0xf9402bb1
 .word 0xf94d4631
 .word 0xb4000051
@@ -1832,7 +1832,7 @@ bl _p_12
 .word 0xd63f0220
 .word 0xf9459ba0
 .word 0xaa0003f9
-.loc 3 90 0
+.loc 3 91 0
 .word 0xf9402bb1
 .word 0xf94d9a31
 .word 0xb4000051
@@ -2045,7 +2045,7 @@ bl _p_16
 .word 0x91010340
 bl _p_3
 .word 0xf94563a0
-.loc 3 92 0
+.loc 3 93 0
 .word 0xf9402bb1
 .word 0xf950ea31
 .word 0xb4000051
@@ -2085,7 +2085,7 @@ bl _p_15
 .word 0xf9400021
 .word 0xf9414430
 .word 0xd63f0200
-.loc 3 93 0
+.loc 3 94 0
 .word 0xf9402bb1
 .word 0xf9518631
 .word 0xb4000051
@@ -2109,7 +2109,7 @@ bl _p_19
 .word 0xf9400042
 .word 0xf9415050
 .word 0xd63f0200
-.loc 3 94 0
+.loc 3 95 0
 .word 0xf9402bb1
 .word 0xf951e231
 .word 0xb4000051
@@ -2149,7 +2149,7 @@ bl _p_15
 .word 0xf9400021
 .word 0xf9414830
 .word 0xd63f0200
-.loc 3 95 0
+.loc 3 96 0
 .word 0xf9402bb1
 .word 0xf9527e31
 .word 0xb4000051
@@ -2174,7 +2174,7 @@ ldr x0, [x16, #280]
 .word 0xf9400063
 .word 0xf9418c70
 .word 0xd63f0200
-.loc 3 96 0
+.loc 3 97 0
 .word 0xf9402bb1
 .word 0xf952da31
 .word 0xb4000051
@@ -2193,7 +2193,7 @@ ldr x0, [x16, #280]
 .word 0xf9400042
 .word 0xf9412050
 .word 0xd63f0200
-.loc 3 97 0
+.loc 3 98 0
 .word 0xf9402bb1
 .word 0xf9532231
 .word 0xb4000051
@@ -2837,7 +2837,7 @@ bl _p_23
 .word 0xd63f0220
 .word 0xf9447fa0
 .word 0xaa0003f8
-.loc 3 131 0
+.loc 3 130 0
 .word 0xf9402bb1
 .word 0xf95cde31
 .word 0xb4000051
@@ -2848,7 +2848,7 @@ bl _p_23
 .word 0xd2800020
 .word 0xd2800000
 .word 0xaa1a03e0
-.loc 3 135 0
+.loc 3 134 0
 .word 0xf9402bb1
 .word 0xf95d0631
 .word 0xb4000051
@@ -2864,7 +2864,7 @@ bl _p_23
 .word 0xd63f0220
 .word 0xd2800120
 .word 0xd2800020
-.loc 3 131 0
+.loc 3 130 0
 .word 0xf9402bb1
 .word 0xf95d4231
 .word 0xb4000051
@@ -2971,7 +2971,7 @@ bl _p_23
 .word 0xd63f0220
 .word 0xf94457a0
 .word 0xaa0003f6
-.loc 3 149 0
+.loc 3 150 0
 .word 0xf9402bb1
 .word 0xf95ede31
 .word 0xb4000051
@@ -3024,7 +3024,7 @@ bl _p_23
 .word 0xd63f0220
 .word 0xf94443a0
 .word 0xaa0003f5
-.loc 3 158 0
+.loc 3 160 0
 .word 0xf9402bb1
 .word 0xf95fae31
 .word 0xb4000051
@@ -3077,7 +3077,7 @@ bl _p_23
 .word 0xd63f0220
 .word 0xf9442fa0
 .word 0xaa0003f4
-.loc 3 167 0
+.loc 3 170 0
 .word 0xf9402bb1
 .word 0xf9607e31
 .word 0xb4000051
@@ -3130,7 +3130,7 @@ bl _p_23
 .word 0xd63f0220
 .word 0xf9441ba0
 .word 0xaa0003f3
-.loc 3 177 0
+.loc 3 180 0
 .word 0xf9402bb1
 .word 0xf9614e31
 .word 0xb4000051
@@ -3141,7 +3141,7 @@ bl _p_23
 .word 0xd2800120
 .word 0xd2800000
 .word 0xaa1a03e0
-.loc 3 181 0
+.loc 3 184 0
 .word 0xf9402bb1
 .word 0xf9617631
 .word 0xb4000051
@@ -3157,7 +3157,7 @@ bl _p_23
 .word 0xd63f0220
 .word 0xd2800040
 .word 0xd2800020
-.loc 3 177 0
+.loc 3 180 0
 .word 0xf9402bb1
 .word 0xf961b231
 .word 0xb4000051
@@ -3198,7 +3198,7 @@ bl _p_23
 .word 0xd63f0220
 .word 0xf94407a0
 .word 0xf90177a0
-.loc 3 187 0
+.loc 3 190 0
 .word 0xf9402bb1
 .word 0xf9625231
 .word 0xb4000051
@@ -3253,7 +3253,7 @@ bl _p_23
 .word 0xd63f0220
 .word 0xf943f3a0
 .word 0xf9017ba0
-.loc 3 198 0
+.loc 3 201 0
 .word 0xf9402bb1
 .word 0xf9632a31
 .word 0xb4000051
@@ -3306,7 +3306,7 @@ bl _p_23
 .word 0xd63f0220
 .word 0xf943dfa0
 .word 0xf9017fa0
-.loc 3 208 0
+.loc 3 211 0
 .word 0xf9402bb1
 .word 0xf963fa31
 .word 0xb4000051
@@ -3359,7 +3359,7 @@ bl _p_23
 .word 0xd63f0220
 .word 0xf943cba0
 .word 0xf90183a0
-.loc 3 216 0
+.loc 3 219 0
 .word 0xf9402bb1
 .word 0xf964ca31
 .word 0xb4000051
@@ -3412,7 +3412,7 @@ bl _p_23
 .word 0xd63f0220
 .word 0xf943b7a0
 .word 0xf90187a0
-.loc 3 226 0
+.loc 3 229 0
 .word 0xf9402bb1
 .word 0xf9659a31
 .word 0xb4000051
@@ -3423,7 +3423,7 @@ bl _p_23
 .word 0xd2800120
 .word 0xd2800000
 .word 0xaa1a03e0
-.loc 3 230 0
+.loc 3 233 0
 .word 0xf9402bb1
 .word 0xf965c231
 .word 0xb4000051
@@ -3439,7 +3439,7 @@ bl _p_23
 .word 0xd63f0220
 .word 0xd2800020
 .word 0xd2800020
-.loc 3 226 0
+.loc 3 229 0
 .word 0xf9402bb1
 .word 0xf965fe31
 .word 0xb4000051
@@ -3478,7 +3478,7 @@ bl _p_23
 .word 0xd63f0220
 .word 0xf943a3a0
 .word 0xf9018ba0
-.loc 3 236 0
+.loc 3 239 0
 .word 0xf9402bb1
 .word 0xf9669631
 .word 0xb4000051
@@ -3533,7 +3533,7 @@ bl _p_23
 .word 0xd63f0220
 .word 0xf9438fa0
 .word 0xf9018fa0
-.loc 3 247 0
+.loc 3 250 0
 .word 0xf9402bb1
 .word 0xf9676e31
 .word 0xb4000051
@@ -3586,7 +3586,7 @@ bl _p_23
 .word 0xd63f0220
 .word 0xf9437ba0
 .word 0xf90193a0
-.loc 3 257 0
+.loc 3 260 0
 .word 0xf9402bb1
 .word 0xf9683e31
 .word 0xb4000051
@@ -3639,7 +3639,7 @@ bl _p_23
 .word 0xd63f0220
 .word 0xf94367a0
 .word 0xf90197a0
-.loc 3 265 0
+.loc 3 268 0
 .word 0xf9402bb1
 .word 0xf9690e31
 .word 0xb4000051
@@ -3692,7 +3692,7 @@ bl _p_23
 .word 0xd63f0220
 .word 0xf94353a0
 .word 0xf9019ba0
-.loc 3 275 0
+.loc 3 278 0
 .word 0xf9402bb1
 .word 0xf969de31
 .word 0xb4000051
@@ -3703,7 +3703,7 @@ bl _p_23
 .word 0xd2800120
 .word 0xd2800000
 .word 0xaa1a03e0
-.loc 3 279 0
+.loc 3 282 0
 .word 0xf9402bb1
 .word 0xf96a0631
 .word 0xb4000051
@@ -3719,7 +3719,7 @@ bl _p_23
 .word 0xd63f0220
 .word 0xd2800020
 .word 0xd2800020
-.loc 3 275 0
+.loc 3 278 0
 .word 0xf9402bb1
 .word 0xf96a4231
 .word 0xb4000051
@@ -3758,7 +3758,7 @@ bl _p_23
 .word 0xd63f0220
 .word 0xf9433fa0
 .word 0xf9019fa0
-.loc 3 285 0
+.loc 3 288 0
 .word 0xf9402bb1
 .word 0xf96ada31
 .word 0xb4000051
@@ -3813,7 +3813,7 @@ bl _p_23
 .word 0xd63f0220
 .word 0xf9432ba0
 .word 0xf901a3a0
-.loc 3 296 0
+.loc 3 299 0
 .word 0xf9402bb1
 .word 0xf96bb231
 .word 0xb4000051
@@ -3866,7 +3866,7 @@ bl _p_23
 .word 0xd63f0220
 .word 0xf94317a0
 .word 0xf901a7a0
-.loc 3 306 0
+.loc 3 309 0
 .word 0xf9402bb1
 .word 0xf96c8231
 .word 0xb4000051
@@ -3919,7 +3919,7 @@ bl _p_23
 .word 0xd63f0220
 .word 0xf94303a0
 .word 0xf901aba0
-.loc 3 315 0
+.loc 3 318 0
 .word 0xf9402bb1
 .word 0xf96d5231
 .word 0xb4000051
@@ -3930,7 +3930,7 @@ bl _p_23
 .word 0xd2800060
 .word 0xd2800000
 .word 0xaa1a03e0
-.loc 3 319 0
+.loc 3 322 0
 .word 0xf9402bb1
 .word 0xf96d7a31
 .word 0xb4000051
@@ -3944,7 +3944,7 @@ bl _p_24
 .word 0xd63f0220
 .word 0xd2800080
 .word 0xd2800020
-.loc 3 315 0
+.loc 3 318 0
 .word 0xf9402bb1
 .word 0xf96dae31
 .word 0xb4000051
@@ -3983,7 +3983,7 @@ bl _p_23
 .word 0xd63f0220
 .word 0xf942efa0
 .word 0xf901afa0
-.loc 3 325 0
+.loc 3 328 0
 .word 0xf9402bb1
 .word 0xf96e4631
 .word 0xb4000051
@@ -3994,7 +3994,7 @@ bl _p_23
 .word 0xd2800120
 .word 0xd2800000
 .word 0xaa1a03e0
-.loc 3 329 0
+.loc 3 332 0
 .word 0xf9402bb1
 .word 0xf96e6e31
 .word 0xb4000051
@@ -4010,7 +4010,7 @@ bl _p_23
 .word 0xd63f0220
 .word 0xd2800120
 .word 0xd2800020
-.loc 3 325 0
+.loc 3 328 0
 .word 0xf9402bb1
 .word 0xf96eaa31
 .word 0xb4000051
@@ -4049,7 +4049,7 @@ bl _p_23
 .word 0xd63f0220
 .word 0xf942dba0
 .word 0xf901b3a0
-.loc 3 335 0
+.loc 3 338 0
 .word 0xf9402bb1
 .word 0xf96f4231
 .word 0xb4000051
@@ -4060,7 +4060,7 @@ bl _p_23
 .word 0xd2800060
 .word 0xd2800000
 .word 0xaa1a03e0
-.loc 3 339 0
+.loc 3 342 0
 .word 0xf9402bb1
 .word 0xf96f6a31
 .word 0xb4000051
@@ -4074,7 +4074,7 @@ bl _p_24
 .word 0xd63f0220
 .word 0xd2800080
 .word 0xd2800020
-.loc 3 335 0
+.loc 3 338 0
 .word 0xf9402bb1
 .word 0xf96f9e31
 .word 0xb4000051
@@ -4115,7 +4115,7 @@ bl _p_23
 .word 0xd63f0220
 .word 0xf942c7a0
 .word 0xf901b7a0
-.loc 3 345 0
+.loc 3 348 0
 .word 0xf9402bb1
 .word 0xf9703e31
 .word 0xb4000051
@@ -4126,7 +4126,7 @@ bl _p_23
 .word 0xd2800120
 .word 0xd2800000
 .word 0xaa1a03e0
-.loc 3 349 0
+.loc 3 352 0
 .word 0xf9402bb1
 .word 0xf9706631
 .word 0xb4000051
@@ -4142,7 +4142,7 @@ bl _p_23
 .word 0xd63f0220
 .word 0xd2800120
 .word 0xd2800020
-.loc 3 345 0
+.loc 3 348 0
 .word 0xf9402bb1
 .word 0xf970a231
 .word 0xb4000051
@@ -4181,7 +4181,7 @@ bl _p_23
 .word 0xd63f0220
 .word 0xf942b3a0
 .word 0xf901bba0
-.loc 3 356 0
+.loc 3 358 0
 .word 0xf9402bb1
 .word 0xf9713a31
 .word 0xb4000051
@@ -4212,7 +4212,7 @@ bl _p_23
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_25
-.loc 3 357 0
+.loc 3 359 0
 .word 0xf9402bb1
 .word 0xf971b231
 .word 0xb4000051
@@ -4243,7 +4243,7 @@ bl _p_25
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_25
-.loc 3 358 0
+.loc 3 360 0
 .word 0xf9402bb1
 .word 0xf9722a31
 .word 0xb4000051
@@ -4274,7 +4274,7 @@ bl _p_25
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_25
-.loc 3 359 0
+.loc 3 361 0
 .word 0xf9402bb1
 .word 0xf972a231
 .word 0xb4000051
@@ -4305,7 +4305,7 @@ bl _p_25
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_25
-.loc 3 360 0
+.loc 3 362 0
 .word 0xf9402bb1
 .word 0xf9731a31
 .word 0xb4000051
@@ -4336,7 +4336,7 @@ bl _p_25
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_25
-.loc 3 361 0
+.loc 3 363 0
 .word 0xf9402bb1
 .word 0xf9739231
 .word 0xb4000051
@@ -4367,7 +4367,7 @@ bl _p_25
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_25
-.loc 3 363 0
+.loc 3 365 0
 .word 0xf9402bb1
 .word 0xf9740a31
 .word 0xb4000051
@@ -4398,7 +4398,7 @@ bl _p_25
 .word 0xf9400042
 .word 0xf9418850
 .word 0xd63f0200
-.loc 3 364 0
+.loc 3 366 0
 .word 0xf9402bb1
 .word 0xf9748231
 .word 0xb4000051
@@ -4429,7 +4429,7 @@ bl _p_25
 .word 0xf9400042
 .word 0xf9418850
 .word 0xd63f0200
-.loc 3 365 0
+.loc 3 367 0
 .word 0xf9402bb1
 .word 0xf974fa31
 .word 0xb4000051
@@ -4460,7 +4460,7 @@ bl _p_25
 .word 0xf9400042
 .word 0xf9418850
 .word 0xd63f0200
-.loc 3 366 0
+.loc 3 368 0
 .word 0xf9402bb1
 .word 0xf9757231
 .word 0xb4000051
@@ -4491,7 +4491,7 @@ bl _p_25
 .word 0xf9400042
 .word 0xf9418850
 .word 0xd63f0200
-.loc 3 367 0
+.loc 3 369 0
 .word 0xf9402bb1
 .word 0xf975ea31
 .word 0xb4000051
@@ -4522,7 +4522,7 @@ bl _p_25
 .word 0xf9400042
 .word 0xf9418850
 .word 0xd63f0200
-.loc 3 368 0
+.loc 3 370 0
 .word 0xf9402bb1
 .word 0xf9766231
 .word 0xb4000051
@@ -4553,7 +4553,7 @@ bl _p_25
 .word 0xf9400042
 .word 0xf9418850
 .word 0xd63f0200
-.loc 3 369 0
+.loc 3 371 0
 .word 0xf9402bb1
 .word 0xf976da31
 .word 0xb4000051
@@ -4584,7 +4584,7 @@ bl _p_25
 .word 0xf9400042
 .word 0xf9418850
 .word 0xd63f0200
-.loc 3 370 0
+.loc 3 372 0
 .word 0xf9402bb1
 .word 0xf9775231
 .word 0xb4000051
@@ -4615,7 +4615,7 @@ bl _p_25
 .word 0xf9400042
 .word 0xf9418850
 .word 0xd63f0200
-.loc 3 371 0
+.loc 3 373 0
 .word 0xf9402bb1
 .word 0xf977ca31
 .word 0xb4000051
@@ -4646,7 +4646,7 @@ bl _p_25
 .word 0xf9400042
 .word 0xf9418850
 .word 0xd63f0200
-.loc 3 372 0
+.loc 3 374 0
 .word 0xf9402bb1
 .word 0xf9784231
 .word 0xb4000051
@@ -4677,7 +4677,7 @@ bl _p_25
 .word 0xf9400042
 .word 0xf9418850
 .word 0xd63f0200
-.loc 3 373 0
+.loc 3 375 0
 .word 0xf9402bb1
 .word 0xf978ba31
 .word 0xb4000051
@@ -4708,7 +4708,7 @@ bl _p_25
 .word 0xf9400042
 .word 0xf9418850
 .word 0xd63f0200
-.loc 3 374 0
+.loc 3 376 0
 .word 0xf9402bb1
 .word 0xf9793231
 .word 0xb4000051
@@ -4739,7 +4739,7 @@ bl _p_25
 .word 0xf9400042
 .word 0xf9418850
 .word 0xd63f0200
-.loc 3 375 0
+.loc 3 377 0
 .word 0xf9402bb1
 .word 0xf979aa31
 .word 0xb4000051
@@ -4770,7 +4770,7 @@ bl _p_25
 .word 0xf9400042
 .word 0xf9418850
 .word 0xd63f0200
-.loc 3 376 0
+.loc 3 378 0
 .word 0xf9402bb1
 .word 0xf97a2231
 .word 0xb4000051
@@ -4801,7 +4801,7 @@ bl _p_25
 .word 0xf9400042
 .word 0xf9418850
 .word 0xd63f0200
-.loc 3 377 0
+.loc 3 379 0
 .word 0xf9402bb1
 .word 0xf97a9a31
 .word 0xb4000051
@@ -4832,7 +4832,7 @@ bl _p_25
 .word 0xf9400042
 .word 0xf9418850
 .word 0xd63f0200
-.loc 3 378 0
+.loc 3 380 0
 .word 0xf9402bb1
 .word 0xf97b1231
 .word 0xb4000051
@@ -4863,7 +4863,7 @@ bl _p_25
 .word 0xf9400042
 .word 0xf9418850
 .word 0xd63f0200
-.loc 3 379 0
+.loc 3 381 0
 .word 0xf9402bb1
 .word 0xf97b8a31
 .word 0xb4000051
@@ -4894,7 +4894,7 @@ bl _p_25
 .word 0xf9400042
 .word 0xf9418850
 .word 0xd63f0200
-.loc 3 380 0
+.loc 3 382 0
 .word 0xf9402bb1
 .word 0xf97c0231
 .word 0xb4000051
@@ -4925,7 +4925,7 @@ bl _p_25
 .word 0xf9400042
 .word 0xf9418850
 .word 0xd63f0200
-.loc 3 381 0
+.loc 3 383 0
 .word 0xf9402bb1
 .word 0xf97c7a31
 .word 0xb4000051
@@ -4956,7 +4956,7 @@ bl _p_25
 .word 0xf9400042
 .word 0xf9418850
 .word 0xd63f0200
-.loc 3 382 0
+.loc 3 384 0
 .word 0xf9402bb1
 .word 0xf97cf231
 .word 0xb4000051
@@ -4987,7 +4987,7 @@ bl _p_25
 .word 0xf9400042
 .word 0xf9418850
 .word 0xd63f0200
-.loc 3 383 0
+.loc 3 385 0
 .word 0xf9402bb1
 .word 0xf97d6a31
 .word 0xb4000051
@@ -5018,7 +5018,7 @@ bl _p_25
 .word 0xf9400042
 .word 0xf9418850
 .word 0xd63f0200
-.loc 3 384 0
+.loc 3 386 0
 .word 0xf9402bb1
 .word 0xf97de231
 .word 0xb4000051
@@ -5049,7 +5049,7 @@ bl _p_25
 .word 0xf9400042
 .word 0xf9418850
 .word 0xd63f0200
-.loc 3 385 0
+.loc 3 387 0
 .word 0xf9402bb1
 .word 0xf97e5a31
 .word 0xb4000051
@@ -5080,7 +5080,7 @@ bl _p_25
 .word 0xf9400042
 .word 0xf9418850
 .word 0xd63f0200
-.loc 3 386 0
+.loc 3 388 0
 .word 0xf9402bb1
 .word 0xf97ed231
 .word 0xb4000051
@@ -5111,7 +5111,7 @@ bl _p_25
 .word 0xf9400042
 .word 0xf9418850
 .word 0xd63f0200
-.loc 3 555 0
+.loc 3 557 0
 .word 0xf9402bb1
 .word 0xf97f4a31
 .word 0xb4000051
@@ -5137,7 +5137,7 @@ Lme_e:
 	.align 4
 	.no_dead_strip TestTimer_ViewController_SetupEventHandlers
 TestTimer_ViewController_SetupEventHandlers:
-.loc 3 561 0 prologue_end
+.loc 3 563 0 prologue_end
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -5161,7 +5161,7 @@ ldr x16, [x16, #304]
 .word 0xf9405631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 562 0
+.loc 3 564 0
 .word 0xf9400fb1
 .word 0xf9406631
 .word 0xb4000051
@@ -5213,7 +5213,7 @@ ldr x1, [x16, #336]
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_27
-.loc 3 563 0
+.loc 3 565 0
 .word 0xf9400fb1
 .word 0xf9412231
 .word 0xb4000051
@@ -5265,7 +5265,7 @@ ldr x1, [x16, #360]
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_27
-.loc 3 564 0
+.loc 3 566 0
 .word 0xf9400fb1
 .word 0xf941de31
 .word 0xb4000051
@@ -5317,7 +5317,7 @@ ldr x1, [x16, #384]
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_27
-.loc 3 565 0
+.loc 3 567 0
 .word 0xf9400fb1
 .word 0xf9429a31
 .word 0xb4000051
@@ -5369,7 +5369,7 @@ ldr x1, [x16, #408]
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_27
-.loc 3 566 0
+.loc 3 568 0
 .word 0xf9400fb1
 .word 0xf9435631
 .word 0xb4000051
@@ -5391,7 +5391,7 @@ Lme_f:
 	.align 4
 	.no_dead_strip TestTimer_ViewController_Start
 TestTimer_ViewController_Start:
-.loc 3 572 0 prologue_end
+.loc 3 574 0 prologue_end
 .word 0xa9b37bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -5415,7 +5415,7 @@ ldr x16, [x16, #416]
 .word 0xf9405631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 573 0
+.loc 3 575 0
 .word 0xf9400fb1
 .word 0xf9406631
 .word 0xb4000051
@@ -5434,32 +5434,32 @@ ldr x16, [x16, #416]
 .word 0xf9400042
 .word 0xf9413850
 .word 0xd63f0200
-.loc 3 574 0
+.loc 3 576 0
 .word 0xf9400fb1
 .word 0xf940ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
-.word 0xf9402f40
+.word 0xf9401f40
 .word 0xf9005fa0
-.word 0xd2800000
+.word 0xd2800020
 .word 0xf9400fb1
 .word 0xf940ce31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9405fa2
 .word 0xaa0203e0
-.word 0xd2800001
+.word 0xd2800021
 .word 0xf9400042
 .word 0xf9413850
 .word 0xd63f0200
-.loc 3 576 0
+.loc 3 577 0
 .word 0xf9400fb1
 .word 0xf940f631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
-.word 0xf9401f40
+.word 0xf9402740
 .word 0xf9005ba0
 .word 0xd2800020
 .word 0xf9400fb1
@@ -5472,26 +5472,26 @@ ldr x16, [x16, #416]
 .word 0xf9400042
 .word 0xf9413850
 .word 0xd63f0200
-.loc 3 577 0
+.loc 3 579 0
 .word 0xf9400fb1
 .word 0xf9413e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
-.word 0xf9402740
+.word 0xf9402f40
 .word 0xf90057a0
-.word 0xd2800020
+.word 0xd2800000
 .word 0xf9400fb1
 .word 0xf9415e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94057a2
 .word 0xaa0203e0
-.word 0xd2800021
+.word 0xd2800001
 .word 0xf9400042
 .word 0xf9413850
 .word 0xd63f0200
-.loc 3 578 0
+.loc 3 580 0
 .word 0xf9400fb1
 .word 0xf9418631
 .word 0xb4000051
@@ -5510,7 +5510,7 @@ ldr x16, [x16, #416]
 .word 0xf9400042
 .word 0xf9413850
 .word 0xd63f0200
-.loc 3 579 0
+.loc 3 581 0
 .word 0xf9400fb1
 .word 0xf941ce31
 .word 0xb4000051
@@ -5529,7 +5529,7 @@ ldr x16, [x16, #416]
 .word 0xf9400042
 .word 0xf9413850
 .word 0xd63f0200
-.loc 3 581 0
+.loc 3 583 0
 .word 0xf9400fb1
 .word 0xf9421631
 .word 0xb4000051
@@ -5553,7 +5553,7 @@ bl _p_29
 .word 0xd63f0220
 .word 0xf94047a0
 .word 0xf9005b40
-.loc 3 582 0
+.loc 3 584 0
 .word 0xf9400fb1
 .word 0xf9427231
 .word 0xb4000051
@@ -5577,7 +5577,7 @@ bl _p_30
 .word 0xd63f0220
 .word 0xf9403fa0
 .word 0xf9005740
-.loc 3 583 0
+.loc 3 585 0
 .word 0xf9400fb1
 .word 0xf942ce31
 .word 0xb4000051
@@ -5601,7 +5601,7 @@ bl _p_31
 .word 0xd63f0220
 .word 0xf94037a0
 .word 0xf9005340
-.loc 3 585 0
+.loc 3 587 0
 .word 0xf9400fb1
 .word 0xf9432a31
 .word 0xb4000051
@@ -5613,7 +5613,7 @@ bl _p_31
 .word 0xd63f0220
 .word 0xaa1a03e0
 bl _p_32
-.loc 3 587 0
+.loc 3 589 0
 .word 0xf9400fb1
 .word 0xf9435631
 .word 0xb4000051
@@ -5694,7 +5694,7 @@ bl _p_34
 .word 0x91018340
 bl _p_3
 .word 0xf94027a0
-.loc 3 629 0
+.loc 3 631 0
 .word 0xf9400fb1
 .word 0xf9448631
 .word 0xb4000051
@@ -5711,7 +5711,7 @@ bl _p_3
 .word 0xf9400021
 .word 0xf940d030
 .word 0xd63f0200
-.loc 3 630 0
+.loc 3 632 0
 .word 0xf9400fb1
 .word 0xf944c631
 .word 0xb4000051
@@ -5733,7 +5733,7 @@ Lme_10:
 	.align 4
 	.no_dead_strip TestTimer_ViewController_Pause
 TestTimer_ViewController_Pause:
-.loc 3 636 0 prologue_end
+.loc 3 638 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -5757,7 +5757,7 @@ ldr x16, [x16, #456]
 .word 0xf9405631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 637 0
+.loc 3 639 0
 .word 0xf9400fb1
 .word 0xf9406631
 .word 0xb4000051
@@ -5774,7 +5774,7 @@ ldr x16, [x16, #456]
 .word 0xf9400021
 .word 0xf940cc30
 .word 0xd63f0200
-.loc 3 639 0
+.loc 3 641 0
 .word 0xf9400fb1
 .word 0xf940a631
 .word 0xb4000051
@@ -5793,7 +5793,7 @@ ldr x16, [x16, #456]
 .word 0xf9400042
 .word 0xf9413850
 .word 0xd63f0200
-.loc 3 640 0
+.loc 3 642 0
 .word 0xf9400fb1
 .word 0xf940ee31
 .word 0xb4000051
@@ -5812,7 +5812,7 @@ ldr x16, [x16, #456]
 .word 0xf9400042
 .word 0xf9413850
 .word 0xd63f0200
-.loc 3 641 0
+.loc 3 643 0
 .word 0xf9400fb1
 .word 0xf9413631
 .word 0xb4000051
@@ -5831,7 +5831,7 @@ Lme_11:
 	.align 4
 	.no_dead_strip TestTimer_ViewController_Resume
 TestTimer_ViewController_Resume:
-.loc 3 647 0 prologue_end
+.loc 3 649 0 prologue_end
 .word 0xa9b87bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -5855,7 +5855,7 @@ ldr x16, [x16, #464]
 .word 0xf9405631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 648 0
+.loc 3 650 0
 .word 0xf9400fb1
 .word 0xf9406631
 .word 0xb4000051
@@ -5871,7 +5871,7 @@ ldr x16, [x16, #464]
 .word 0xaa0103e0
 .word 0xf940003e
 bl _p_35
-.loc 3 650 0
+.loc 3 652 0
 .word 0xf9400fb1
 .word 0xf940a231
 .word 0xb4000051
@@ -5890,7 +5890,7 @@ bl _p_35
 .word 0xf9400042
 .word 0xf9413850
 .word 0xd63f0200
-.loc 3 651 0
+.loc 3 653 0
 .word 0xf9400fb1
 .word 0xf940ea31
 .word 0xb4000051
@@ -5909,7 +5909,7 @@ bl _p_35
 .word 0xf9400042
 .word 0xf9413850
 .word 0xd63f0200
-.loc 3 653 0
+.loc 3 655 0
 .word 0xf9400fb1
 .word 0xf9413231
 .word 0xb4000051
@@ -5990,7 +5990,7 @@ bl _p_34
 .word 0x91018340
 bl _p_3
 .word 0xf94027a0
-.loc 3 683 0
+.loc 3 685 0
 .word 0xf9400fb1
 .word 0xf9426231
 .word 0xb4000051
@@ -6007,7 +6007,7 @@ bl _p_3
 .word 0xf9400021
 .word 0xf940d030
 .word 0xd63f0200
-.loc 3 684 0
+.loc 3 686 0
 .word 0xf9400fb1
 .word 0xf942a231
 .word 0xb4000051
@@ -6029,7 +6029,7 @@ Lme_12:
 	.align 4
 	.no_dead_strip TestTimer_ViewController_Stopped
 TestTimer_ViewController_Stopped:
-.loc 3 690 0 prologue_end
+.loc 3 692 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -6053,7 +6053,7 @@ ldr x16, [x16, #496]
 .word 0xf9405631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 691 0
+.loc 3 693 0
 .word 0xf9400fb1
 .word 0xf9406631
 .word 0xb4000051
@@ -6072,7 +6072,7 @@ ldr x16, [x16, #496]
 .word 0xf9400042
 .word 0xf9413850
 .word 0xd63f0200
-.loc 3 692 0
+.loc 3 694 0
 .word 0xf9400fb1
 .word 0xf940ae31
 .word 0xb4000051
@@ -6091,7 +6091,7 @@ ldr x16, [x16, #496]
 .word 0xf9400042
 .word 0xf9413850
 .word 0xd63f0200
-.loc 3 694 0
+.loc 3 696 0
 .word 0xf9400fb1
 .word 0xf940f631
 .word 0xb4000051
@@ -6108,7 +6108,7 @@ ldr x16, [x16, #496]
 .word 0xf9400021
 .word 0xf940cc30
 .word 0xd63f0200
-.loc 3 695 0
+.loc 3 697 0
 .word 0xf9400fb1
 .word 0xf9413631
 .word 0xb4000051
@@ -6124,7 +6124,7 @@ ldr x16, [x16, #496]
 .word 0xaa0103e0
 .word 0xf940003e
 bl _p_35
-.loc 3 697 0
+.loc 3 699 0
 .word 0xf9400fb1
 .word 0xf9417231
 .word 0xb4000051
@@ -6143,7 +6143,7 @@ bl _p_35
 .word 0xf9400042
 .word 0xf9413850
 .word 0xd63f0200
-.loc 3 698 0
+.loc 3 700 0
 .word 0xf9400fb1
 .word 0xf941ba31
 .word 0xb4000051
@@ -6162,7 +6162,7 @@ bl _p_35
 .word 0xf9400042
 .word 0xf9413850
 .word 0xd63f0200
-.loc 3 699 0
+.loc 3 701 0
 .word 0xf9400fb1
 .word 0xf9420231
 .word 0xb4000051
@@ -6181,7 +6181,7 @@ bl _p_35
 .word 0xf9400042
 .word 0xf9413850
 .word 0xd63f0200
-.loc 3 700 0
+.loc 3 702 0
 .word 0xf9400fb1
 .word 0xf9424a31
 .word 0xb4000051
@@ -6200,7 +6200,7 @@ bl _p_35
 .word 0xf9400042
 .word 0xf9413850
 .word 0xd63f0200
-.loc 3 701 0
+.loc 3 703 0
 .word 0xf9400fb1
 .word 0xf9429231
 .word 0xb4000051
@@ -6219,7 +6219,7 @@ Lme_13:
 	.align 4
 	.no_dead_strip TestTimer_ViewController_ConvertToSeconds
 TestTimer_ViewController_ConvertToSeconds:
-.loc 3 707 0 prologue_end
+.loc 3 709 0 prologue_end
 .word 0xa9b57bfd
 .word 0x910003fd
 .word 0xa90167b8
@@ -6244,7 +6244,7 @@ ldr x16, [x16, #504]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 708 0
+.loc 3 710 0
 .word 0xf94017b1
 .word 0xf9406a31
 .word 0xb4000051
@@ -6278,7 +6278,7 @@ ldr x16, [x16, #504]
 .word 0xd63f0220
 .word 0xf9404ba0
 .word 0xf9005b40
-.loc 3 709 0
+.loc 3 711 0
 .word 0xf94017b1
 .word 0xf940ee31
 .word 0xb4000051
@@ -6312,7 +6312,7 @@ ldr x16, [x16, #504]
 .word 0xd63f0220
 .word 0xf9403ba0
 .word 0xf9005740
-.loc 3 710 0
+.loc 3 712 0
 .word 0xf94017b1
 .word 0xf9417231
 .word 0xb4000051
@@ -6366,7 +6366,7 @@ bl _p_31
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf9005f40
-.loc 3 711 0
+.loc 3 713 0
 .word 0xf94017b1
 .word 0xf9424631
 .word 0xb4000051
@@ -6386,7 +6386,7 @@ Lme_14:
 	.align 4
 	.no_dead_strip TestTimer_ViewController_DidReceiveMemoryWarning
 TestTimer_ViewController_DidReceiveMemoryWarning:
-.loc 3 796 0 prologue_end
+.loc 3 802 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -6409,7 +6409,7 @@ ldr x16, [x16, #512]
 .word 0xf9405231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 797 0
+.loc 3 803 0
 .word 0xf9400fb1
 .word 0xf9406231
 .word 0xb4000051
@@ -6422,7 +6422,7 @@ ldr x16, [x16, #512]
 .word 0xd63f0220
 .word 0xf9401ba0
 bl _p_36
-.loc 3 799 0
+.loc 3 805 0
 .word 0xf9400fb1
 .word 0xf9409231
 .word 0xb4000051
@@ -6638,7 +6638,7 @@ Lme_18:
 	.align 4
 	.no_dead_strip TestTimer_ViewController__SetupEventHandlersm__0_object_System_EventArgs
 TestTimer_ViewController__SetupEventHandlersm__0_object_System_EventArgs:
-.loc 3 562 0 prologue_end
+.loc 3 564 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -6688,7 +6688,7 @@ Lme_19:
 	.align 4
 	.no_dead_strip TestTimer_ViewController__SetupEventHandlersm__1_object_System_EventArgs
 TestTimer_ViewController__SetupEventHandlersm__1_object_System_EventArgs:
-.loc 3 563 0 prologue_end
+.loc 3 565 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -6738,7 +6738,7 @@ Lme_1a:
 	.align 4
 	.no_dead_strip TestTimer_ViewController__SetupEventHandlersm__2_object_System_EventArgs
 TestTimer_ViewController__SetupEventHandlersm__2_object_System_EventArgs:
-.loc 3 564 0 prologue_end
+.loc 3 566 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -6788,7 +6788,7 @@ Lme_1b:
 	.align 4
 	.no_dead_strip TestTimer_ViewController__SetupEventHandlersm__3_object_System_EventArgs
 TestTimer_ViewController__SetupEventHandlersm__3_object_System_EventArgs:
-.loc 3 565 0 prologue_end
+.loc 3 567 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -6838,7 +6838,7 @@ Lme_1c:
 	.align 4
 	.no_dead_strip TestTimer_ViewController__Startm__4_Foundation_NSTimer
 TestTimer_ViewController__Startm__4_Foundation_NSTimer:
-.loc 3 587 0 prologue_end
+.loc 3 589 0 prologue_end
 .word 0xa9b07bfd
 .word 0x910003fd
 .word 0xa9016bb9
@@ -6863,7 +6863,7 @@ ldr x16, [x16, #576]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 588 0
+.loc 3 590 0
 .word 0xf94017b1
 .word 0xf9406a31
 .word 0xb4000051
@@ -6895,12 +6895,12 @@ ldr x16, [x16, #576]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x34004fe0
-.loc 3 589 0
+.loc 3 591 0
 .word 0xf94017b1
 .word 0xf940e631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 590 0
+.loc 3 592 0
 .word 0xf94017b1
 .word 0xf940f631
 .word 0xb4000051
@@ -6924,7 +6924,7 @@ bl _p_42
 .word 0xd63f0220
 .word 0xf9407ba0
 .word 0xf9005f40
-.loc 3 591 0
+.loc 3 593 0
 .word 0xf94017b1
 .word 0xf9415231
 .word 0xb4000051
@@ -6995,7 +6995,7 @@ bl _p_42
 .word 0xd63f0220
 .word 0xf9406ba0
 .word 0xf9005b40
-.loc 3 592 0
+.loc 3 594 0
 .word 0xf94017b1
 .word 0xf9426a31
 .word 0xb4000051
@@ -7127,7 +7127,7 @@ bl _p_42
 .word 0xd63f0220
 .word 0xf9404fa0
 .word 0xf9005740
-.loc 3 593 0
+.loc 3 595 0
 .word 0xf94017b1
 .word 0xf9447631
 .word 0xb4000051
@@ -7260,7 +7260,7 @@ bl _p_42
 .word 0xd63f0220
 .word 0xf94033a0
 .word 0xf9005340
-.loc 3 596 0
+.loc 3 598 0
 .word 0xf94017b1
 .word 0xf9468631
 .word 0xb4000051
@@ -7319,12 +7319,12 @@ bl _p_42
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x34000620
-.loc 3 597 0
+.loc 3 599 0
 .word 0xf94017b1
 .word 0xf9476e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 598 0
+.loc 3 600 0
 .word 0xf94017b1
 .word 0xf9477e31
 .word 0xb4000051
@@ -7366,13 +7366,13 @@ bl _p_43
 .word 0xf9400042
 .word 0xf9419850
 .word 0xd63f0200
-.loc 3 599 0
+.loc 3 601 0
 .word 0xf94017b1
 .word 0xf9481a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x140000a4
-.loc 3 600 0
+.loc 3 602 0
 .word 0xf9401bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -7408,12 +7408,12 @@ bl _p_43
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x34000780
-.loc 3 601 0
+.loc 3 603 0
 .word 0xf94017b1
 .word 0xf948ba31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 602 0
+.loc 3 604 0
 .word 0xf94017b1
 .word 0xf948ca31
 .word 0xb4000051
@@ -7467,18 +7467,18 @@ bl _p_44
 .word 0xf9400042
 .word 0xf9419850
 .word 0xd63f0200
-.loc 3 603 0
+.loc 3 605 0
 .word 0xf94017b1
 .word 0xf9499231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000046
-.loc 3 605 0
+.loc 3 607 0
 .word 0xf94017b1
 .word 0xf949a631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 606 0
+.loc 3 608 0
 .word 0xf94017b1
 .word 0xf949b631
 .word 0xb4000051
@@ -7544,12 +7544,12 @@ bl _p_45
 .word 0xf9400042
 .word 0xf9419850
 .word 0xd63f0200
-.loc 3 607 0
+.loc 3 609 0
 .word 0xf94017b1
 .word 0xf94aaa31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 608 0
+.loc 3 610 0
 .word 0xf9401bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -7559,12 +7559,12 @@ bl _p_45
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x140000a5
-.loc 3 610 0
+.loc 3 612 0
 .word 0xf94017b1
 .word 0xf94ade31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 612 0
+.loc 3 614 0
 .word 0xf94017b1
 .word 0xf94aee31
 .word 0xb4000051
@@ -7592,7 +7592,7 @@ bl _p_46
 .word 0x9101a340
 bl _p_3
 .word 0xf94053a0
-.loc 3 616 0
+.loc 3 618 0
 .word 0xf94017b1
 .word 0xf94b5631
 .word 0xb4000051
@@ -7623,7 +7623,7 @@ bl _p_47
 .word 0x9101e340
 bl _p_3
 .word 0xf94047a0
-.loc 3 617 0
+.loc 3 619 0
 .word 0xf94017b1
 .word 0xf94bca31
 .word 0xb4000051
@@ -7654,7 +7654,7 @@ bl _p_48
 .word 0x91020340
 bl _p_3
 .word 0xf9403ba0
-.loc 3 618 0
+.loc 3 620 0
 .word 0xf94017b1
 .word 0xf94c3e31
 .word 0xb4000051
@@ -7680,7 +7680,7 @@ bl _p_49
 .word 0x91022340
 bl _p_3
 .word 0xf9402fa0
-.loc 3 621 0
+.loc 3 623 0
 .word 0xf94017b1
 .word 0xf94ca231
 .word 0xb4000051
@@ -7697,7 +7697,7 @@ bl _p_3
 .word 0xf9400021
 .word 0xf940cc30
 .word 0xd63f0200
-.loc 3 624 0
+.loc 3 626 0
 .word 0xf94017b1
 .word 0xf94ce231
 .word 0xb4000051
@@ -7714,7 +7714,7 @@ bl _p_3
 .word 0xf9400021
 .word 0xf940cc30
 .word 0xd63f0200
-.loc 3 625 0
+.loc 3 627 0
 .word 0xf94017b1
 .word 0xf94d2231
 .word 0xb4000051
@@ -7730,12 +7730,12 @@ bl _p_3
 .word 0xaa0103e0
 .word 0xf940003e
 bl _p_35
-.loc 3 626 0
+.loc 3 628 0
 .word 0xf94017b1
 .word 0xf94d5e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 627 0
+.loc 3 629 0
 .word 0xf9401bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -7767,7 +7767,7 @@ Lme_1d:
 	.align 4
 	.no_dead_strip TestTimer_ViewController__Resumem__5_Foundation_NSTimer
 TestTimer_ViewController__Resumem__5_Foundation_NSTimer:
-.loc 3 654 0 prologue_end
+.loc 3 656 0 prologue_end
 .word 0xa9b07bfd
 .word 0x910003fd
 .word 0xa9016bb9
@@ -7792,7 +7792,7 @@ ldr x16, [x16, #640]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 655 0
+.loc 3 657 0
 .word 0xf94017b1
 .word 0xf9406a31
 .word 0xb4000051
@@ -7824,12 +7824,12 @@ ldr x16, [x16, #640]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x34004fe0
-.loc 3 656 0
+.loc 3 658 0
 .word 0xf94017b1
 .word 0xf940e631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 657 0
+.loc 3 659 0
 .word 0xf94017b1
 .word 0xf940f631
 .word 0xb4000051
@@ -7853,7 +7853,7 @@ bl _p_42
 .word 0xd63f0220
 .word 0xf9407ba0
 .word 0xf9005f40
-.loc 3 658 0
+.loc 3 660 0
 .word 0xf94017b1
 .word 0xf9415231
 .word 0xb4000051
@@ -7924,7 +7924,7 @@ bl _p_42
 .word 0xd63f0220
 .word 0xf9406ba0
 .word 0xf9005b40
-.loc 3 659 0
+.loc 3 661 0
 .word 0xf94017b1
 .word 0xf9426a31
 .word 0xb4000051
@@ -8056,7 +8056,7 @@ bl _p_42
 .word 0xd63f0220
 .word 0xf9404fa0
 .word 0xf9005740
-.loc 3 660 0
+.loc 3 662 0
 .word 0xf94017b1
 .word 0xf9447631
 .word 0xb4000051
@@ -8189,7 +8189,7 @@ bl _p_42
 .word 0xd63f0220
 .word 0xf94033a0
 .word 0xf9005340
-.loc 3 663 0
+.loc 3 665 0
 .word 0xf94017b1
 .word 0xf9468631
 .word 0xb4000051
@@ -8248,12 +8248,12 @@ bl _p_42
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x34000620
-.loc 3 664 0
+.loc 3 666 0
 .word 0xf94017b1
 .word 0xf9476e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 665 0
+.loc 3 667 0
 .word 0xf94017b1
 .word 0xf9477e31
 .word 0xb4000051
@@ -8295,13 +8295,13 @@ bl _p_43
 .word 0xf9400042
 .word 0xf9419850
 .word 0xd63f0200
-.loc 3 666 0
+.loc 3 668 0
 .word 0xf94017b1
 .word 0xf9481a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x140000a4
-.loc 3 667 0
+.loc 3 669 0
 .word 0xf9401bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -8337,12 +8337,12 @@ bl _p_43
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x34000780
-.loc 3 668 0
+.loc 3 670 0
 .word 0xf94017b1
 .word 0xf948ba31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 669 0
+.loc 3 671 0
 .word 0xf94017b1
 .word 0xf948ca31
 .word 0xb4000051
@@ -8396,18 +8396,18 @@ bl _p_44
 .word 0xf9400042
 .word 0xf9419850
 .word 0xd63f0200
-.loc 3 670 0
+.loc 3 672 0
 .word 0xf94017b1
 .word 0xf9499231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000046
-.loc 3 672 0
+.loc 3 674 0
 .word 0xf94017b1
 .word 0xf949a631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 673 0
+.loc 3 675 0
 .word 0xf94017b1
 .word 0xf949b631
 .word 0xb4000051
@@ -8473,12 +8473,12 @@ bl _p_45
 .word 0xf9400042
 .word 0xf9419850
 .word 0xd63f0200
-.loc 3 674 0
+.loc 3 676 0
 .word 0xf94017b1
 .word 0xf94aaa31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 675 0
+.loc 3 677 0
 .word 0xf9401bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -8488,12 +8488,12 @@ bl _p_45
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000028
-.loc 3 677 0
+.loc 3 679 0
 .word 0xf94017b1
 .word 0xf94ade31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 678 0
+.loc 3 680 0
 .word 0xf94017b1
 .word 0xf94aee31
 .word 0xb4000051
@@ -8510,7 +8510,7 @@ bl _p_45
 .word 0xf9400021
 .word 0xf940cc30
 .word 0xd63f0200
-.loc 3 679 0
+.loc 3 681 0
 .word 0xf94017b1
 .word 0xf94b2e31
 .word 0xb4000051
@@ -8526,12 +8526,12 @@ bl _p_45
 .word 0xaa0103e0
 .word 0xf940003e
 bl _p_35
-.loc 3 680 0
+.loc 3 682 0
 .word 0xf94017b1
 .word 0xf94b6a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 681 0
+.loc 3 683 0
 .word 0xf9401bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -8596,7 +8596,7 @@ Lme_1f:
 	.align 4
 	.no_dead_strip TestTimer_ViewController_StatusPickerViewModel_get_hours
 TestTimer_ViewController_StatusPickerViewModel_get_hours:
-.loc 3 721 0 prologue_end
+.loc 3 723 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000bb9
@@ -8639,7 +8639,7 @@ Lme_20:
 	.align 4
 	.no_dead_strip TestTimer_ViewController_StatusPickerViewModel_set_hours_System_nint
 TestTimer_ViewController_StatusPickerViewModel_set_hours_System_nint:
-.loc 3 721 0 prologue_end
+.loc 3 723 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -8679,7 +8679,7 @@ Lme_21:
 	.align 4
 	.no_dead_strip TestTimer_ViewController_StatusPickerViewModel_get_minutes
 TestTimer_ViewController_StatusPickerViewModel_get_minutes:
-.loc 3 722 0 prologue_end
+.loc 3 724 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000bb9
@@ -8722,7 +8722,7 @@ Lme_22:
 	.align 4
 	.no_dead_strip TestTimer_ViewController_StatusPickerViewModel_set_minutes_System_nint
 TestTimer_ViewController_StatusPickerViewModel_set_minutes_System_nint:
-.loc 3 722 0 prologue_end
+.loc 3 724 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -8762,7 +8762,7 @@ Lme_23:
 	.align 4
 	.no_dead_strip TestTimer_ViewController_StatusPickerViewModel_get_seconds
 TestTimer_ViewController_StatusPickerViewModel_get_seconds:
-.loc 3 723 0 prologue_end
+.loc 3 725 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000bb9
@@ -8805,7 +8805,7 @@ Lme_24:
 	.align 4
 	.no_dead_strip TestTimer_ViewController_StatusPickerViewModel_set_seconds_System_nint
 TestTimer_ViewController_StatusPickerViewModel_set_seconds_System_nint:
-.loc 3 723 0 prologue_end
+.loc 3 725 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -8845,7 +8845,7 @@ Lme_25:
 	.align 4
 	.no_dead_strip TestTimer_ViewController_StatusPickerViewModel_GetComponentCount_UIKit_UIPickerView
 TestTimer_ViewController_StatusPickerViewModel_GetComponentCount_UIKit_UIPickerView:
-.loc 3 731 0 prologue_end
+.loc 3 733 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -8871,7 +8871,7 @@ ldr x16, [x16, #704]
 .word 0xf9405e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 732 0
+.loc 3 734 0
 .word 0xf94017b1
 .word 0xf9406e31
 .word 0xb4000051
@@ -8892,7 +8892,7 @@ ldr x16, [x16, #704]
 .word 0xf94027a0
 .word 0xf90023a0
 .word 0xaa0003fa
-.loc 3 733 0
+.loc 3 735 0
 .word 0xf94017b1
 .word 0xf940be31
 .word 0xb4000051
@@ -8913,7 +8913,7 @@ Lme_26:
 	.align 4
 	.no_dead_strip TestTimer_ViewController_StatusPickerViewModel_GetRowsInComponent_UIKit_UIPickerView_System_nint
 TestTimer_ViewController_StatusPickerViewModel_GetRowsInComponent_UIKit_UIPickerView_System_nint:
-.loc 3 742 0 prologue_end
+.loc 3 744 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
 .word 0xf9000bb9
@@ -8940,7 +8940,7 @@ ldr x16, [x16, #712]
 .word 0xf9406231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 743 0
+.loc 3 745 0
 .word 0xf9401bb1
 .word 0xf9407231
 .word 0xb4000051
@@ -8971,7 +8971,7 @@ ldr x16, [x16, #712]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0x34000320
-.loc 3 744 0
+.loc 3 746 0
 .word 0xf9401bb1
 .word 0xf940ea31
 .word 0xb4000051
@@ -8997,7 +8997,7 @@ ldr x0, [x16, #720]
 .word 0xf9402ba0
 .word 0xaa0003f9
 .word 0x14000018
-.loc 3 746 0
+.loc 3 748 0
 .word 0xf9401bb1
 .word 0xf9414a31
 .word 0xb4000051
@@ -9022,7 +9022,7 @@ ldr x0, [x16, #728]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xaa0003f9
-.loc 3 747 0
+.loc 3 749 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -9047,7 +9047,7 @@ Lme_27:
 	.align 4
 	.no_dead_strip TestTimer_ViewController_StatusPickerViewModel_GetTitle_UIKit_UIPickerView_System_nint_System_nint
 TestTimer_ViewController_StatusPickerViewModel_GetTitle_UIKit_UIPickerView_System_nint_System_nint:
-.loc 3 757 0 prologue_end
+.loc 3 759 0 prologue_end
 .word 0xa9b87bfd
 .word 0x910003fd
 .word 0xa90163b7
@@ -9077,7 +9077,7 @@ ldr x16, [x16, #736]
 .word 0xf9406e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 758 0
+.loc 3 760 0
 .word 0xf94027b1
 .word 0xf9407e31
 .word 0xb4000051
@@ -9099,17 +9099,17 @@ ldr x16, [x16, #736]
 .word 0xaa0003e1
 .word 0xd2800001
 .word 0xeb1f001f
-.word 0x54000e6b
+.word 0x540016ab
 .word 0xaa1903e0
 .word 0xd2800040
 .word 0xd280005e
 .word 0xeb1e033f
-.word 0x54000dcc
+.word 0x5400160c
 .word 0xaa1903e0
 .word 0x93407f37
 .word 0xd280007e
 .word 0x6b1e02ff
-.word 0x54000d22
+.word 0x54001562
 .word 0xd37df2e0
 .word 0x2a0003e1
 
@@ -9119,9 +9119,44 @@ ldr x0, [x16, #744]
 .word 0x8b010000
 .word 0xf9400000
 .word 0xd61f0000
-.loc 3 760 0
+.loc 3 762 0
 .word 0xf94027b1
 .word 0xf9411e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fa0
+.word 0xf90037a0
+.word 0xd2800020
+.word 0xf9003fa0
+.word 0xf94027b1
+.word 0xf9413e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403fa0
+.word 0x93407c00
+.word 0xf9003ba0
+.word 0xf94027b1
+.word 0xf9415a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94037a0
+.word 0xf9403ba1
+.word 0xeb01001f
+.word 0x9a9f17e0
+.word 0xf90033a0
+.word 0xf94027b1
+.word 0xf9417e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a0
+.word 0x340004a0
+.word 0xf94027b1
+.word 0xf9419631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 763 0
+.word 0xf94027b1
+.word 0xf941a631
 .word 0xb4000051
 .word 0xd63f0220
 
@@ -9132,14 +9167,14 @@ ldr x0, [x16, #752]
 .word 0x9100e3a0
 .word 0xf9003fa0
 .word 0xf94027b1
-.word 0xf9414631
+.word 0xf941ce31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403fa0
 bl _p_51
 .word 0xf9003ba0
 .word 0xf94027b1
-.word 0xf9416231
+.word 0xf941ea31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037a0
@@ -9147,15 +9182,15 @@ bl _p_51
 bl _p_43
 .word 0xf90033a0
 .word 0xf94027b1
-.word 0xf9418231
+.word 0xf9420a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
 .word 0xaa0003f8
-.word 0x1400004a
-.loc 3 762 0
+.word 0x1400006a
+.loc 3 766 0
 .word 0xf94027b1
-.word 0xf9419e31
+.word 0xf9422631
 .word 0xb4000051
 .word 0xd63f0220
 
@@ -9166,14 +9201,14 @@ ldr x0, [x16, #760]
 .word 0x9100e3a0
 .word 0xf9003fa0
 .word 0xf94027b1
-.word 0xf941c631
+.word 0xf9424e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403fa0
 bl _p_51
 .word 0xf9003ba0
 .word 0xf94027b1
-.word 0xf941e231
+.word 0xf9426a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037a0
@@ -9181,15 +9216,49 @@ bl _p_51
 bl _p_43
 .word 0xf90033a0
 .word 0xf94027b1
-.word 0xf9420231
+.word 0xf9428a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a0
+.word 0xaa0003f8
+.word 0x1400004a
+.loc 3 768 0
+.word 0xf94027b1
+.word 0xf942a631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_TestTimer_got@PAGE+0
+add x16, x16, mono_aot_TestTimer_got@PAGEOFF
+ldr x0, [x16, #768]
+.word 0xf90037a0
+.word 0x9100e3a0
+.word 0xf9003fa0
+.word 0xf94027b1
+.word 0xf942ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403fa0
+bl _p_51
+.word 0xf9003ba0
+.word 0xf94027b1
+.word 0xf942ea31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94037a0
+.word 0xf9403ba1
+bl _p_43
+.word 0xf90033a0
+.word 0xf94027b1
+.word 0xf9430a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
 .word 0xaa0003f8
 .word 0x1400002a
-.loc 3 764 0
+.loc 3 770 0
 .word 0xf94027b1
-.word 0xf9421e31
+.word 0xf9432631
 .word 0xb4000051
 .word 0xd63f0220
 
@@ -9200,14 +9269,14 @@ ldr x0, [x16, #584]
 .word 0x9100e3a0
 .word 0xf9003fa0
 .word 0xf94027b1
-.word 0xf9424631
+.word 0xf9434e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403fa0
 bl _p_51
 .word 0xf9003ba0
 .word 0xf94027b1
-.word 0xf9426231
+.word 0xf9436a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037a0
@@ -9215,35 +9284,35 @@ bl _p_51
 bl _p_43
 .word 0xf90033a0
 .word 0xf94027b1
-.word 0xf9428231
+.word 0xf9438a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
 .word 0xaa0003f8
 .word 0x1400000a
-.loc 3 766 0
+.loc 3 772 0
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf942ae31
+.word 0xf943b631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800018
-.loc 3 768 0
+.loc 3 774 0
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf942d231
+.word 0xf943da31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xaa1803e0
 .word 0xf94027b1
-.word 0xf942ea31
+.word 0xf943f231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94163b7
@@ -9257,7 +9326,7 @@ Lme_28:
 	.align 4
 	.no_dead_strip TestTimer_ViewController_StatusPickerViewModel_Selected_UIKit_UIPickerView_System_nint_System_nint
 TestTimer_ViewController_StatusPickerViewModel_Selected_UIKit_UIPickerView_System_nint_System_nint:
-.loc 3 777 0 prologue_end
+.loc 3 783 0 prologue_end
 .word 0xa9b67bfd
 .word 0x910003fd
 .word 0xa9016bb9
@@ -9268,7 +9337,7 @@ TestTimer_ViewController_StatusPickerViewModel_Selected_UIKit_UIPickerView_Syste
 
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #768]
+ldr x16, [x16, #776]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -9284,7 +9353,7 @@ ldr x16, [x16, #768]
 .word 0xf9406231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 778 0
+.loc 3 784 0
 .word 0xf9401bb1
 .word 0xf9407231
 .word 0xb4000051
@@ -9317,7 +9386,7 @@ ldr x16, [x16, #768]
 .word 0xf94043a1
 .word 0xaa1903e0
 bl _p_52
-.loc 3 779 0
+.loc 3 785 0
 .word 0xf9401bb1
 .word 0xf940f231
 .word 0xb4000051
@@ -9350,7 +9419,7 @@ bl _p_52
 .word 0xf94037a1
 .word 0xaa1903e0
 bl _p_53
-.loc 3 780 0
+.loc 3 786 0
 .word 0xf9401bb1
 .word 0xf9417231
 .word 0xb4000051
@@ -9383,7 +9452,7 @@ bl _p_53
 .word 0xf9402ba1
 .word 0xaa1903e0
 bl _p_54
-.loc 3 781 0
+.loc 3 787 0
 .word 0xf9401bb1
 .word 0xf941f231
 .word 0xb4000051
@@ -9402,7 +9471,7 @@ Lme_29:
 	.align 4
 	.no_dead_strip TestTimer_ViewController_StatusPickerViewModel_GetComponentWidth_UIKit_UIPickerView_System_nint
 TestTimer_ViewController_StatusPickerViewModel_GetComponentWidth_UIKit_UIPickerView_System_nint:
-.loc 3 790 0 prologue_end
+.loc 3 796 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -9411,7 +9480,7 @@ TestTimer_ViewController_StatusPickerViewModel_GetComponentWidth_UIKit_UIPickerV
 
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #776]
+ldr x16, [x16, #784]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -9429,7 +9498,7 @@ ldr x16, [x16, #776]
 .word 0xf9406231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 791 0
+.loc 3 797 0
 .word 0xf94017b1
 .word 0xf9407231
 .word 0xb4000051
@@ -9451,7 +9520,7 @@ ldr x16, [x16, #776]
 .word 0xd63f0220
 .word 0xfd402ba0
 .word 0xfd0023a0
-.loc 3 792 0
+.loc 3 798 0
 .word 0xf94017b1
 .word 0xf940c631
 .word 0xb4000051
@@ -9470,13 +9539,13 @@ Lme_2a:
 	.align 4
 	.no_dead_strip TestTimer_ViewController_StatusPickerViewModel__cctor
 TestTimer_ViewController_StatusPickerViewModel__cctor:
-.loc 3 718 0 prologue_end
+.loc 3 720 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #784]
+ldr x16, [x16, #792]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -9496,7 +9565,7 @@ ldr x16, [x16, #784]
 
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x0, [x16, #792]
+ldr x0, [x16, #800]
 .word 0xd28007a1
 bl _p_55
 .word 0xaa0003e1
@@ -9505,7 +9574,7 @@ adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
 ldr x0, [x16, #728]
 .word 0xf9000001
-.loc 3 719 0
+.loc 3 721 0
 .word 0xf9400bb1
 .word 0xf9408a31
 .word 0xb4000051
@@ -9514,7 +9583,7 @@ ldr x0, [x16, #728]
 
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x0, [x16, #792]
+ldr x0, [x16, #800]
 .word 0xd2800321
 bl _p_55
 .word 0xaa0003e1
@@ -9549,7 +9618,7 @@ wrapper_delegate_invoke_System_Action_1_Foundation_NSTimer_invoke_void_T_Foundat
 
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #800]
+ldr x16, [x16, #808]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -9573,7 +9642,7 @@ ldr x16, [x16, #800]
 
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x0, [x16, #808]
+ldr x0, [x16, #816]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -9846,461 +9915,461 @@ plt_UIKit_UIApplication_Main_string___string_string:
 _p_1:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #824]
+ldr x16, [x16, #832]
 br x16
-.word 695
+.word 700
 	.no_dead_strip plt_UIKit_UIApplicationDelegate__ctor
 plt_UIKit_UIApplicationDelegate__ctor:
 _p_2:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #832]
+ldr x16, [x16, #840]
 br x16
-.word 700
+.word 705
 	.no_dead_strip plt_wrapper_write_barrier_object_wbarrier_noconc_intptr
 plt_wrapper_write_barrier_object_wbarrier_noconc_intptr:
 _p_3:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #840]
+ldr x16, [x16, #848]
 br x16
-.word 705
+.word 710
 	.no_dead_strip plt_UIKit_UIViewController__ctor_intptr
 plt_UIKit_UIViewController__ctor_intptr:
 _p_4:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #848]
+ldr x16, [x16, #856]
 br x16
-.word 712
+.word 717
 	.no_dead_strip plt_UIKit_UIViewController_ViewDidLoad
 plt_UIKit_UIViewController_ViewDidLoad:
 _p_5:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #856]
+ldr x16, [x16, #864]
 br x16
-.word 717
+.word 722
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
 plt__jit_icall_ves_icall_object_new_specific:
 _p_6:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #864]
+ldr x16, [x16, #872]
 br x16
-.word 722
+.word 727
 	.no_dead_strip plt_UIKit_UIPickerView__ctor
 plt_UIKit_UIPickerView__ctor:
 _p_7:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #872]
+ldr x16, [x16, #880]
 br x16
-.word 754
+.word 759
 	.no_dead_strip plt_TestTimer_ViewController_StatusPickerViewModel__ctor
 plt_TestTimer_ViewController_StatusPickerViewModel__ctor:
 _p_8:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #880]
+ldr x16, [x16, #888]
 br x16
-.word 759
+.word 764
 	.no_dead_strip plt_UIKit_UIPickerView_set_Model_UIKit_UIPickerViewModel
 plt_UIKit_UIPickerView_set_Model_UIKit_UIPickerViewModel:
 _p_9:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #888]
+ldr x16, [x16, #896]
 br x16
-.word 761
+.word 766
 	.no_dead_strip plt_TestTimer_ViewController_SetupUserInterface
 plt_TestTimer_ViewController_SetupUserInterface:
 _p_10:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #896]
+ldr x16, [x16, #904]
 br x16
-.word 766
+.word 771
 	.no_dead_strip plt_TestTimer_ViewController_SetupEventHandlers
 plt_TestTimer_ViewController_SetupEventHandlers:
 _p_11:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #904]
+ldr x16, [x16, #912]
 br x16
-.word 768
+.word 773
 	.no_dead_strip plt_UIKit_UIButton__ctor
 plt_UIKit_UIButton__ctor:
 _p_12:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #912]
+ldr x16, [x16, #920]
 br x16
-.word 770
+.word 775
 	.no_dead_strip plt_CoreGraphics_RectangleFExtensions_GetMidX_CoreGraphics_CGRect
 plt_CoreGraphics_RectangleFExtensions_GetMidX_CoreGraphics_CGRect:
 _p_13:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #920]
+ldr x16, [x16, #928]
 br x16
-.word 775
+.word 780
 	.no_dead_strip plt_CoreGraphics_CGRect_get_Top
 plt_CoreGraphics_CGRect_get_Top:
 _p_14:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #928]
+ldr x16, [x16, #936]
 br x16
-.word 780
+.word 785
 	.no_dead_strip plt_System_nfloat_op_Implicit_int
 plt_System_nfloat_op_Implicit_int:
 _p_15:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #936]
+ldr x16, [x16, #944]
 br x16
-.word 785
+.word 790
 	.no_dead_strip plt_CoreGraphics_CGRect__ctor_System_nfloat_System_nfloat_System_nfloat_System_nfloat
 plt_CoreGraphics_CGRect__ctor_System_nfloat_System_nfloat_System_nfloat_System_nfloat:
 _p_16:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #944]
+ldr x16, [x16, #952]
 br x16
-.word 790
+.word 795
 	.no_dead_strip plt_UIKit_UIColor_get_Green
 plt_UIKit_UIColor_get_Green:
 _p_17:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #952]
+ldr x16, [x16, #960]
 br x16
-.word 795
+.word 800
 	.no_dead_strip plt_UIKit_UIColor_get_Red
 plt_UIKit_UIColor_get_Red:
 _p_18:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #960]
+ldr x16, [x16, #968]
 br x16
-.word 800
+.word 805
 	.no_dead_strip plt_UIKit_UIColor_get_Gray
 plt_UIKit_UIColor_get_Gray:
 _p_19:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #968]
+ldr x16, [x16, #976]
 br x16
-.word 805
+.word 810
 	.no_dead_strip plt_UIKit_UILabel__ctor
 plt_UIKit_UILabel__ctor:
 _p_20:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #976]
+ldr x16, [x16, #984]
 br x16
-.word 810
+.word 815
 	.no_dead_strip plt_UIKit_UIColor_get_DarkGray
 plt_UIKit_UIColor_get_DarkGray:
 _p_21:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #984]
+ldr x16, [x16, #992]
 br x16
-.word 815
+.word 820
 	.no_dead_strip plt_UIKit_UIFont_FromName_string_System_nfloat
 plt_UIKit_UIFont_FromName_string_System_nfloat:
 _p_22:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #992]
+ldr x16, [x16, #1000]
 br x16
-.word 820
+.word 825
 	.no_dead_strip plt_UIKit_NSLayoutConstraint_Create_Foundation_NSObject_UIKit_NSLayoutAttribute_UIKit_NSLayoutRelation_Foundation_NSObject_UIKit_NSLayoutAttribute_System_nfloat_System_nfloat
 plt_UIKit_NSLayoutConstraint_Create_Foundation_NSObject_UIKit_NSLayoutAttribute_UIKit_NSLayoutRelation_Foundation_NSObject_UIKit_NSLayoutAttribute_System_nfloat_System_nfloat:
 _p_23:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #1000]
+ldr x16, [x16, #1008]
 br x16
-.word 825
+.word 830
 	.no_dead_strip plt_TestTimer_ViewController_get_selectedLbl
 plt_TestTimer_ViewController_get_selectedLbl:
 _p_24:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #1008]
+ldr x16, [x16, #1016]
 br x16
-.word 830
+.word 835
 	.no_dead_strip plt_UIKit_UIView_Add_UIKit_UIView
 plt_UIKit_UIView_Add_UIKit_UIView:
 _p_25:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #1016]
+ldr x16, [x16, #1024]
 br x16
-.word 832
+.word 837
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_fast
 plt__jit_icall_ves_icall_object_new_fast:
 _p_26:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #1024]
+ldr x16, [x16, #1032]
 br x16
-.word 837
+.word 842
 	.no_dead_strip plt_UIKit_UIControl_add_TouchUpInside_System_EventHandler
 plt_UIKit_UIControl_add_TouchUpInside_System_EventHandler:
 _p_27:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #1032]
+ldr x16, [x16, #1040]
 br x16
-.word 865
+.word 870
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_28:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #1040]
+ldr x16, [x16, #1048]
 br x16
-.word 870
+.word 875
 	.no_dead_strip plt_TestTimer_ViewController_StatusPickerViewModel_get_hours
 plt_TestTimer_ViewController_StatusPickerViewModel_get_hours:
 _p_29:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #1048]
+ldr x16, [x16, #1056]
 br x16
-.word 905
+.word 910
 	.no_dead_strip plt_TestTimer_ViewController_StatusPickerViewModel_get_minutes
 plt_TestTimer_ViewController_StatusPickerViewModel_get_minutes:
 _p_30:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #1056]
+ldr x16, [x16, #1064]
 br x16
-.word 907
+.word 912
 	.no_dead_strip plt_TestTimer_ViewController_StatusPickerViewModel_get_seconds
 plt_TestTimer_ViewController_StatusPickerViewModel_get_seconds:
 _p_31:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #1064]
+ldr x16, [x16, #1072]
 br x16
-.word 909
+.word 914
 	.no_dead_strip plt_TestTimer_ViewController_ConvertToSeconds
 plt_TestTimer_ViewController_ConvertToSeconds:
 _p_32:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #1072]
+ldr x16, [x16, #1080]
 br x16
-.word 911
+.word 916
 	.no_dead_strip plt_System_TimeSpan_FromMilliseconds_double
 plt_System_TimeSpan_FromMilliseconds_double:
 _p_33:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #1080]
+ldr x16, [x16, #1088]
 br x16
-.word 913
+.word 918
 	.no_dead_strip plt_Foundation_NSTimer_CreateRepeatingScheduledTimer_System_TimeSpan_System_Action_1_Foundation_NSTimer
 plt_Foundation_NSTimer_CreateRepeatingScheduledTimer_System_TimeSpan_System_Action_1_Foundation_NSTimer:
 _p_34:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #1088]
+ldr x16, [x16, #1096]
 br x16
-.word 918
+.word 923
 	.no_dead_strip plt_Foundation_NSObject_Dispose
 plt_Foundation_NSObject_Dispose:
 _p_35:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #1096]
+ldr x16, [x16, #1104]
 br x16
-.word 923
+.word 928
 	.no_dead_strip plt_UIKit_UIViewController_DidReceiveMemoryWarning
 plt_UIKit_UIViewController_DidReceiveMemoryWarning:
 _p_36:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #1104]
+ldr x16, [x16, #1112]
 br x16
-.word 928
+.word 933
 	.no_dead_strip plt_TestTimer_ViewController_set_selectedLbl_UIKit_UILabel
 plt_TestTimer_ViewController_set_selectedLbl_UIKit_UILabel:
 _p_37:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #1112]
+ldr x16, [x16, #1120]
 br x16
-.word 933
+.word 938
 	.no_dead_strip plt_TestTimer_ViewController_Start
 plt_TestTimer_ViewController_Start:
 _p_38:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #1120]
+ldr x16, [x16, #1128]
 br x16
-.word 935
+.word 940
 	.no_dead_strip plt_TestTimer_ViewController_Stopped
 plt_TestTimer_ViewController_Stopped:
 _p_39:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #1128]
+ldr x16, [x16, #1136]
 br x16
-.word 937
+.word 942
 	.no_dead_strip plt_TestTimer_ViewController_Pause
 plt_TestTimer_ViewController_Pause:
 _p_40:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #1136]
+ldr x16, [x16, #1144]
 br x16
-.word 939
+.word 944
 	.no_dead_strip plt_TestTimer_ViewController_Resume
 plt_TestTimer_ViewController_Resume:
 _p_41:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #1144]
+ldr x16, [x16, #1152]
 br x16
-.word 941
+.word 946
 	.no_dead_strip plt_System_nint_op_Decrement_System_nint
 plt_System_nint_op_Decrement_System_nint:
 _p_42:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #1152]
+ldr x16, [x16, #1160]
 br x16
-.word 943
+.word 948
 	.no_dead_strip plt_string_Format_string_object
 plt_string_Format_string_object:
 _p_43:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #1160]
+ldr x16, [x16, #1168]
 br x16
-.word 948
+.word 953
 	.no_dead_strip plt_string_Format_string_object_object
 plt_string_Format_string_object_object:
 _p_44:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #1168]
+ldr x16, [x16, #1176]
 br x16
-.word 953
+.word 958
 	.no_dead_strip plt_string_Format_string_object_object_object
 plt_string_Format_string_object_object_object:
 _p_45:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #1176]
+ldr x16, [x16, #1184]
 br x16
-.word 958
+.word 963
 	.no_dead_strip plt_Foundation_NSUrl_FromFilename_string
 plt_Foundation_NSUrl_FromFilename_string:
 _p_46:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #1184]
+ldr x16, [x16, #1192]
 br x16
-.word 963
+.word 968
 	.no_dead_strip plt_AVFoundation_AVPlayerItem__ctor_Foundation_NSUrl
 plt_AVFoundation_AVPlayerItem__ctor_Foundation_NSUrl:
 _p_47:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #1192]
+ldr x16, [x16, #1200]
 br x16
-.word 968
+.word 973
 	.no_dead_strip plt_AVFoundation_AVPlayer__ctor_AVFoundation_AVPlayerItem
 plt_AVFoundation_AVPlayer__ctor_AVFoundation_AVPlayerItem:
 _p_48:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #1200]
+ldr x16, [x16, #1208]
 br x16
-.word 973
+.word 978
 	.no_dead_strip plt_AVFoundation_AVPlayerLayer_FromPlayer_AVFoundation_AVPlayer
 plt_AVFoundation_AVPlayerLayer_FromPlayer_AVFoundation_AVPlayer:
 _p_49:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #1208]
+ldr x16, [x16, #1216]
 br x16
-.word 978
+.word 983
 	.no_dead_strip plt_UIKit_UIPickerViewModel__ctor
 plt_UIKit_UIPickerViewModel__ctor:
 _p_50:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #1216]
+ldr x16, [x16, #1224]
 br x16
-.word 983
+.word 988
 	.no_dead_strip plt_System_nint_ToString
 plt_System_nint_ToString:
 _p_51:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #1224]
+ldr x16, [x16, #1232]
 br x16
-.word 988
+.word 993
 	.no_dead_strip plt_TestTimer_ViewController_StatusPickerViewModel_set_hours_System_nint
 plt_TestTimer_ViewController_StatusPickerViewModel_set_hours_System_nint:
 _p_52:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #1232]
+ldr x16, [x16, #1240]
 br x16
-.word 993
+.word 998
 	.no_dead_strip plt_TestTimer_ViewController_StatusPickerViewModel_set_minutes_System_nint
 plt_TestTimer_ViewController_StatusPickerViewModel_set_minutes_System_nint:
 _p_53:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #1240]
+ldr x16, [x16, #1248]
 br x16
-.word 995
+.word 1000
 	.no_dead_strip plt_TestTimer_ViewController_StatusPickerViewModel_set_seconds_System_nint
 plt_TestTimer_ViewController_StatusPickerViewModel_set_seconds_System_nint:
 _p_54:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #1248]
+ldr x16, [x16, #1256]
 br x16
-.word 997
+.word 1002
 	.no_dead_strip plt__jit_icall_ves_icall_array_new_specific
 plt__jit_icall_ves_icall_array_new_specific:
 _p_55:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #1256]
+ldr x16, [x16, #1264]
 br x16
-.word 999
+.word 1004
 	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
 plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_56:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #1264]
+ldr x16, [x16, #1272]
 br x16
-.word 1030
+.word 1035
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_57:
 adrp x16, mono_aot_TestTimer_got@PAGE+0
 add x16, x16, mono_aot_TestTimer_got@PAGEOFF
-ldr x16, [x16, #1272]
+ldr x16, [x16, #1280]
 br x16
-.word 1068
+.word 1073
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_TestTimer_got, 1280
+.lcomm mono_aot_TestTimer_got, 1288
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -10323,7 +10392,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "D262A82B-C7DC-4641-970F-6E8FEF6C4DC5"
+	.asciz "859AAE07-6454-443C-A3CD-CF46906687B4"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -10400,13 +10469,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 102,1280,58,46,70,923871743,0,14872
-	.long 128,8,8,10,0,14,15704,824
-	.long 568,240,0,440,536,288,0,224
+	.long 103,1288,58,46,70,923871743,0,14972
+	.long 128,8,8,10,0,14,15816,832
+	.long 576,240,0,448,544,288,0,224
 	.long 80,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 229,107,165,173,75,151,216,78,198,172,141,55,235,222,35,216
+	.byte 154,130,94,63,200,212,99,130,8,49,151,44,220,60,37,27
 	.globl _mono_aot_module_TestTimer_info
 	.align 3
 _mono_aot_module_TestTimer_info:
@@ -12316,7 +12385,7 @@ Lfde14_end:
 	.asciz "TestTimer.ViewController:SetupEventHandlers"
 	.asciz "TestTimer_ViewController_SetupEventHandlers"
 
-	.byte 3,177,4
+	.byte 3,179,4
 	.quad TestTimer_ViewController_SetupEventHandlers
 	.quad Lme_f
 
@@ -12350,7 +12419,7 @@ Lfde15_end:
 	.asciz "TestTimer.ViewController:Start"
 	.asciz "TestTimer_ViewController_Start"
 
-	.byte 3,188,4
+	.byte 3,190,4
 	.quad TestTimer_ViewController_Start
 	.quad Lme_10
 
@@ -12384,7 +12453,7 @@ Lfde16_end:
 	.asciz "TestTimer.ViewController:Pause"
 	.asciz "TestTimer_ViewController_Pause"
 
-	.byte 3,252,4
+	.byte 3,254,4
 	.quad TestTimer_ViewController_Pause
 	.quad Lme_11
 
@@ -12418,7 +12487,7 @@ Lfde17_end:
 	.asciz "TestTimer.ViewController:Resume"
 	.asciz "TestTimer_ViewController_Resume"
 
-	.byte 3,135,5
+	.byte 3,137,5
 	.quad TestTimer_ViewController_Resume
 	.quad Lme_12
 
@@ -12452,7 +12521,7 @@ Lfde18_end:
 	.asciz "TestTimer.ViewController:Stopped"
 	.asciz "TestTimer_ViewController_Stopped"
 
-	.byte 3,178,5
+	.byte 3,180,5
 	.quad TestTimer_ViewController_Stopped
 	.quad Lme_13
 
@@ -12486,7 +12555,7 @@ Lfde19_end:
 	.asciz "TestTimer.ViewController:ConvertToSeconds"
 	.asciz "TestTimer_ViewController_ConvertToSeconds"
 
-	.byte 3,195,5
+	.byte 3,197,5
 	.quad TestTimer_ViewController_ConvertToSeconds
 	.quad Lme_14
 
@@ -12520,7 +12589,7 @@ Lfde20_end:
 	.asciz "TestTimer.ViewController:DidReceiveMemoryWarning"
 	.asciz "TestTimer_ViewController_DidReceiveMemoryWarning"
 
-	.byte 3,156,6
+	.byte 3,162,6
 	.quad TestTimer_ViewController_DidReceiveMemoryWarning
 	.quad Lme_15
 
@@ -12688,7 +12757,7 @@ LDIFF_SYM334=LTDIE_39 - Ldebug_info_start
 	.asciz "TestTimer.ViewController:<SetupEventHandlers>m__0"
 	.asciz "TestTimer_ViewController__SetupEventHandlersm__0_object_System_EventArgs"
 
-	.byte 3,178,4
+	.byte 3,180,4
 	.quad TestTimer_ViewController__SetupEventHandlersm__0_object_System_EventArgs
 	.quad Lme_19
 
@@ -12732,7 +12801,7 @@ Lfde25_end:
 	.asciz "TestTimer.ViewController:<SetupEventHandlers>m__1"
 	.asciz "TestTimer_ViewController__SetupEventHandlersm__1_object_System_EventArgs"
 
-	.byte 3,179,4
+	.byte 3,181,4
 	.quad TestTimer_ViewController__SetupEventHandlersm__1_object_System_EventArgs
 	.quad Lme_1a
 
@@ -12776,7 +12845,7 @@ Lfde26_end:
 	.asciz "TestTimer.ViewController:<SetupEventHandlers>m__2"
 	.asciz "TestTimer_ViewController__SetupEventHandlersm__2_object_System_EventArgs"
 
-	.byte 3,180,4
+	.byte 3,182,4
 	.quad TestTimer_ViewController__SetupEventHandlersm__2_object_System_EventArgs
 	.quad Lme_1b
 
@@ -12820,7 +12889,7 @@ Lfde27_end:
 	.asciz "TestTimer.ViewController:<SetupEventHandlers>m__3"
 	.asciz "TestTimer_ViewController__SetupEventHandlersm__3_object_System_EventArgs"
 
-	.byte 3,181,4
+	.byte 3,183,4
 	.quad TestTimer_ViewController__SetupEventHandlersm__3_object_System_EventArgs
 	.quad Lme_1c
 
@@ -12864,7 +12933,7 @@ Lfde28_end:
 	.asciz "TestTimer.ViewController:<Start>m__4"
 	.asciz "TestTimer_ViewController__Startm__4_Foundation_NSTimer"
 
-	.byte 3,203,4
+	.byte 3,205,4
 	.quad TestTimer_ViewController__Startm__4_Foundation_NSTimer
 	.quad Lme_1d
 
@@ -12903,7 +12972,7 @@ Lfde29_end:
 	.asciz "TestTimer.ViewController:<Resume>m__5"
 	.asciz "TestTimer_ViewController__Resumem__5_Foundation_NSTimer"
 
-	.byte 3,142,5
+	.byte 3,144,5
 	.quad TestTimer_ViewController__Resumem__5_Foundation_NSTimer
 	.quad Lme_1e
 
@@ -12976,7 +13045,7 @@ Lfde31_end:
 	.asciz "TestTimer.ViewController/StatusPickerViewModel:get_hours"
 	.asciz "TestTimer_ViewController_StatusPickerViewModel_get_hours"
 
-	.byte 3,209,5
+	.byte 3,211,5
 	.quad TestTimer_ViewController_StatusPickerViewModel_get_hours
 	.quad Lme_20
 
@@ -13015,7 +13084,7 @@ Lfde32_end:
 	.asciz "TestTimer.ViewController/StatusPickerViewModel:set_hours"
 	.asciz "TestTimer_ViewController_StatusPickerViewModel_set_hours_System_nint"
 
-	.byte 3,209,5
+	.byte 3,211,5
 	.quad TestTimer_ViewController_StatusPickerViewModel_set_hours_System_nint
 	.quad Lme_21
 
@@ -13054,7 +13123,7 @@ Lfde33_end:
 	.asciz "TestTimer.ViewController/StatusPickerViewModel:get_minutes"
 	.asciz "TestTimer_ViewController_StatusPickerViewModel_get_minutes"
 
-	.byte 3,210,5
+	.byte 3,212,5
 	.quad TestTimer_ViewController_StatusPickerViewModel_get_minutes
 	.quad Lme_22
 
@@ -13093,7 +13162,7 @@ Lfde34_end:
 	.asciz "TestTimer.ViewController/StatusPickerViewModel:set_minutes"
 	.asciz "TestTimer_ViewController_StatusPickerViewModel_set_minutes_System_nint"
 
-	.byte 3,210,5
+	.byte 3,212,5
 	.quad TestTimer_ViewController_StatusPickerViewModel_set_minutes_System_nint
 	.quad Lme_23
 
@@ -13132,7 +13201,7 @@ Lfde35_end:
 	.asciz "TestTimer.ViewController/StatusPickerViewModel:get_seconds"
 	.asciz "TestTimer_ViewController_StatusPickerViewModel_get_seconds"
 
-	.byte 3,211,5
+	.byte 3,213,5
 	.quad TestTimer_ViewController_StatusPickerViewModel_get_seconds
 	.quad Lme_24
 
@@ -13171,7 +13240,7 @@ Lfde36_end:
 	.asciz "TestTimer.ViewController/StatusPickerViewModel:set_seconds"
 	.asciz "TestTimer_ViewController_StatusPickerViewModel_set_seconds_System_nint"
 
-	.byte 3,211,5
+	.byte 3,213,5
 	.quad TestTimer_ViewController_StatusPickerViewModel_set_seconds_System_nint
 	.quad Lme_25
 
@@ -13210,7 +13279,7 @@ Lfde37_end:
 	.asciz "TestTimer.ViewController/StatusPickerViewModel:GetComponentCount"
 	.asciz "TestTimer_ViewController_StatusPickerViewModel_GetComponentCount_UIKit_UIPickerView"
 
-	.byte 3,219,5
+	.byte 3,221,5
 	.quad TestTimer_ViewController_StatusPickerViewModel_GetComponentCount_UIKit_UIPickerView
 	.quad Lme_26
 
@@ -13254,7 +13323,7 @@ Lfde38_end:
 	.asciz "TestTimer.ViewController/StatusPickerViewModel:GetRowsInComponent"
 	.asciz "TestTimer_ViewController_StatusPickerViewModel_GetRowsInComponent_UIKit_UIPickerView_System_nint"
 
-	.byte 3,230,5
+	.byte 3,232,5
 	.quad TestTimer_ViewController_StatusPickerViewModel_GetRowsInComponent_UIKit_UIPickerView_System_nint
 	.quad Lme_27
 
@@ -13330,7 +13399,7 @@ LDIFF_SYM405=LTDIE_40 - Ldebug_info_start
 	.asciz "TestTimer.ViewController/StatusPickerViewModel:GetTitle"
 	.asciz "TestTimer_ViewController_StatusPickerViewModel_GetTitle_UIKit_UIPickerView_System_nint_System_nint"
 
-	.byte 3,245,5
+	.byte 3,247,5
 	.quad TestTimer_ViewController_StatusPickerViewModel_GetTitle_UIKit_UIPickerView_System_nint_System_nint
 	.quad Lme_28
 
@@ -13389,7 +13458,7 @@ Lfde40_end:
 	.asciz "TestTimer.ViewController/StatusPickerViewModel:Selected"
 	.asciz "TestTimer_ViewController_StatusPickerViewModel_Selected_UIKit_UIPickerView_System_nint_System_nint"
 
-	.byte 3,137,6
+	.byte 3,143,6
 	.quad TestTimer_ViewController_StatusPickerViewModel_Selected_UIKit_UIPickerView_System_nint_System_nint
 	.quad Lme_29
 
@@ -13438,7 +13507,7 @@ Lfde41_end:
 	.asciz "TestTimer.ViewController/StatusPickerViewModel:GetComponentWidth"
 	.asciz "TestTimer_ViewController_StatusPickerViewModel_GetComponentWidth_UIKit_UIPickerView_System_nint"
 
-	.byte 3,150,6
+	.byte 3,156,6
 	.quad TestTimer_ViewController_StatusPickerViewModel_GetComponentWidth_UIKit_UIPickerView_System_nint
 	.quad Lme_2a
 
@@ -13487,7 +13556,7 @@ Lfde42_end:
 	.asciz "TestTimer.ViewController/StatusPickerViewModel:.cctor"
 	.asciz "TestTimer_ViewController_StatusPickerViewModel__cctor"
 
-	.byte 3,206,5
+	.byte 3,208,5
 	.quad TestTimer_ViewController_StatusPickerViewModel__cctor
 	.quad Lme_2b
 
