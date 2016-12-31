@@ -109,6 +109,10 @@
     <ImageAsset Include="Assets.xcassets\AquaCircle.imageset\AquaCircle.png" />
     <ImageAsset Include="Assets.xcassets\AquaCircle.imageset\AquaCircle%402x.png" />
     <ImageAsset Include="Assets.xcassets\AquaCircle.imageset\AquaCircle%403x.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icons-small.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icons-small%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icons-small%403x.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
@@ -121,6 +125,7 @@
     <Folder Include="Assets.xcassets\BlueCircle.imageset\" />
     <Folder Include="Assets.xcassets\AquaCircle.imageset\" />
     <Folder Include="Assets.xcassets\CyanCirecle.imageset\" />
+    <Folder Include="Resources\Sounds\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -151,6 +156,25 @@
     <BundleResource Include="Resources\BlueCircle%401x.png" />
     <BundleResource Include="Resources\BlueCircle%402x.png" />
     <BundleResource Include="Resources\BlueCircle%403x.png" />
+    <BundleResource Include="Resources\Icon%402x.png" />
+    <BundleResource Include="Resources\Icon%403x.png" />
+    <BundleResource Include="Resources\Icon.png" />
+    <BundleResource Include="Resources\Icons-29.png" />
+    <BundleResource Include="Resources\Icons-29%402x.png" />
+    <BundleResource Include="Resources\Icons-29%403x.png" />
+    <BundleResource Include="Resources\Icon-80.png" />
+    <BundleResource Include="Resources\Icon-80%402x.png" />
+    <BundleResource Include="Resources\Icon-80%403x.png" />
+    <BundleResource Include="Resources\Icon-57%403x.png" />
+    <BundleResource Include="Resources\Icon-120.png" />
+    <BundleResource Include="Resources\Sounds\IMG_217304691.MOV" />
+    <BundleResource Include="Resources\Top-Icon%403x.png" />
+    <BundleResource Include="Resources\Top-Icon.png" />
+    <BundleResource Include="Resources\Top-Icon%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ITunesArtwork Include="iTunesArtwork" />
+    <ITunesArtwork Include="iTunesArtwork%402x" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
