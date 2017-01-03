@@ -1,0 +1,4 @@
+/Users/adamc/Projects/Timr/Timr/obj/iPhone/Debug/build-iphone9.2-10.1.1/mtouch-cache/Link/Xamarin.iOS.dll
+/Users/adamc/Projects/Timr/Timr/obj/iPhone/Debug/build-iphone9.2-10.1.1/mtouch-cache/Link/TestTimer.exe
+/Users/adamc/Projects/Timr/Timr/obj/iPhone/Debug/build-iphone9.2-10.1.1/mtouch-cache/Link/System.dll
+/Users/adamc/Projects/Timr/Timr/obj/iPhone/Debug/build-iphone9.2-10.1.1/mtouch-cache/Link/mscorlib.dll

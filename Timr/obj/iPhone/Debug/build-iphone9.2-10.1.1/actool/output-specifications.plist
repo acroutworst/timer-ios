@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>bundle-id</key>
+		<string>com.croutworst.timr-ios.asset-pack-091BIG313I7V2</string>
+		<key>bundle-path</key>
+		<string>/Users/adamc/Projects/Timr/Timr/obj/iPhone/Debug/build-iphone9.2-10.1.1/actool/OnDemandResources/com.croutworst.timr-ios.GreenCircle.assetpack</string>
+		<key>tags</key>
+		<array>
+			<string>GreenCircle</string>
+		</array>
+	</dict>
+	<dict>
+		<key>bundle-id</key>
+		<string>com.croutworst.timr-ios.asset-pack-3DMCDQYAZTZZQ</string>
+		<key>bundle-path</key>
+		<string>/Users/adamc/Projects/Timr/Timr/obj/iPhone/Debug/build-iphone9.2-10.1.1/actool/OnDemandResources/com.croutworst.timr-ios.RedCircle.assetpack</string>
+		<key>tags</key>
+		<array>
+			<string>RedCircle</string>
+		</array>
+	</dict>
+	<dict>
+		<key>bundle-id</key>
+		<string>com.croutworst.timr-ios.asset-pack-2MUFULADLR3Z8</string>
+		<key>bundle-path</key>
+		<string>/Users/adamc/Projects/Timr/Timr/obj/iPhone/Debug/build-iphone9.2-10.1.1/actool/OnDemandResources/com.croutworst.timr-ios.BlueCircle.assetpack</string>
+		<key>tags</key>
+		<array>
+			<string>BlueCircle</string>
+		</array>
+	</dict>
+	<dict>
+		<key>bundle-id</key>
+		<string>com.croutworst.timr-ios.asset-pack-0VDPQGLXT9WBO</string>
+		<key>bundle-path</key>
+		<string>/Users/adamc/Projects/Timr/Timr/obj/iPhone/Debug/build-iphone9.2-10.1.1/actool/OnDemandResources/com.croutworst.timr-ios.AquaCircle.assetpack</string>
+		<key>tags</key>
+		<array>
+			<string>AquaCircle</string>
+		</array>
+	</dict>
+</array>
+</plist>

@@ -1,13 +1,11 @@
 ﻿<Properties StartupConfiguration="{E1290D2C-E2B4-482F-931C-A0D7E260EC67}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestTimer/Soundclip.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="TestTimer/AppDelegate.cs" Line="1" Column="1" />
-      <File FileName="TestTimer/ViewController.cs" Line="602" Column="6" />
-      <File FileName="TestTimer/Soundclip.cs" Line="10" Column="24" />
+      <File FileName="TestTimer/Info.plist" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.TestTimer PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.76C252C6-0110-474C-A3A5-36937A07C7DB" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.ItemProperties.TestTimer PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.7200b48cf7fb5b82ea94454849d9b752ed7ba581" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

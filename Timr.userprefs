@@ -1,0 +1,13 @@
+﻿<Properties StartupConfiguration="{E1290D2C-E2B4-482F-931C-A0D7E260EC67}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestTimer/Info.plist">
+    <Files>
+      <File FileName="TestTimer/Info.plist" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Timr PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.7200b48cf7fb5b82ea94454849d9b752ed7ba581" />
+</Properties>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProjectGuid>{E1290D2C-E2B4-482F-931C-A0D7E260EC67}</ProjectGuid>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Timr</RootNamespace>
+    <AssemblyName>TestTimer</AssemblyName>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchFastDev>true</MtouchFastDev>
+    <MtouchUseSGen>true</MtouchUseSGen>
+    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+    <IOSDebuggerPort>32330</IOSDebuggerPort>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>x86_64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <MtouchTlsProvider>Default</MtouchTlsProvider>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchUseSGen>true</MtouchUseSGen>
+    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+    <MtouchFloat32>true</MtouchFloat32>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <MtouchTlsProvider>Default</MtouchTlsProvider>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchUseSGen>true</MtouchUseSGen>
+    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>x86_64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <MtouchTlsProvider>Default</MtouchTlsProvider>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <DeviceSpecificBuild>true</DeviceSpecificBuild>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchFastDev>true</MtouchFastDev>
+    <MtouchUseSGen>true</MtouchUseSGen>
+    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+    <MtouchFloat32>true</MtouchFloat32>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <MtouchTlsProvider>Default</MtouchTlsProvider>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodesignProvision>8fec4d00-69c2-4375-b20d-75f4ab37e5c7</CodesignProvision>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\GreenCircle.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\GreenCircle.imageset\GreenCircle%401x.png" />
+    <ImageAsset Include="Assets.xcassets\GreenCircle.imageset\GreenCircle%402x.png" />
+    <ImageAsset Include="Assets.xcassets\GreenCircle.imageset\GreenCircle%403x.png" />
+    <ImageAsset Include="Assets.xcassets\RedCircle.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\RedCircle.imageset\RedCircle%402x.png" />
+    <ImageAsset Include="Assets.xcassets\RedCircle.imageset\RedCircle%403x.png" />
+    <ImageAsset Include="Assets.xcassets\RedCircle.imageset\RedCircle.png" />
+    <ImageAsset Include="Assets.xcassets\BlueCircle.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\BlueCircle.imageset\BlueCircle%402x.png" />
+    <ImageAsset Include="Assets.xcassets\BlueCircle.imageset\BlueCircle.png" />
+    <ImageAsset Include="Assets.xcassets\BlueCircle.imageset\BlueCircle%403x.png" />
+    <ImageAsset Include="Assets.xcassets\AquaCircle.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\AquaCircle.imageset\AquaCircle.png" />
+    <ImageAsset Include="Assets.xcassets\AquaCircle.imageset\AquaCircle%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AquaCircle.imageset\AquaCircle%403x.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icons-small.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icons-small%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icons-small%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+    <Folder Include="Assets.xcassets\GreenCircle.imageset\" />
+    <Folder Include="Assets.xcassets\RedCircle.imageset\" />
+    <Folder Include="Assets.xcassets\CyanCircle.imageset\" />
+    <Folder Include="Assets.xcassets\PurpleCircle.imageset\" />
+    <Folder Include="Assets.xcassets\Purple.imageset\" />
+    <Folder Include="Assets.xcassets\Cyan.imageset\" />
+    <Folder Include="Assets.xcassets\BlueCircle.imageset\" />
+    <Folder Include="Assets.xcassets\AquaCircle.imageset\" />
+    <Folder Include="Assets.xcassets\CyanCirecle.imageset\" />
+    <Folder Include="Resources\Sounds\" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="LaunchScreen.storyboard" />
+    <InterfaceDefinition Include="Main.storyboard" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+    <None Include="Entitlements.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="ViewController.cs" />
+    <Compile Include="ViewController.designer.cs">
+      <DependentUpon>ViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Soundclip.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\GreenCircle%402x.png" />
+    <BundleResource Include="Resources\GreenCircle%403x.png" />
+    <BundleResource Include="Resources\GreenCircle%401x.png" />
+    <BundleResource Include="Resources\RedCircle%401x.png" />
+    <BundleResource Include="Resources\RedCircle%402x.png" />
+    <BundleResource Include="Resources\RedCircle%403x.png" />
+    <BundleResource Include="Resources\AquaCircle%401x.png" />
+    <BundleResource Include="Resources\AquaCircle%402x.png" />
+    <BundleResource Include="Resources\AquaCircle%403x.png" />
+    <BundleResource Include="Resources\BlueCircle%401x.png" />
+    <BundleResource Include="Resources\BlueCircle%402x.png" />
+    <BundleResource Include="Resources\BlueCircle%403x.png" />
+    <BundleResource Include="Resources\Icon%402x.png" />
+    <BundleResource Include="Resources\Icon%403x.png" />
+    <BundleResource Include="Resources\Icon.png" />
+    <BundleResource Include="Resources\Icons-29.png" />
+    <BundleResource Include="Resources\Icons-29%402x.png" />
+    <BundleResource Include="Resources\Icons-29%403x.png" />
+    <BundleResource Include="Resources\Icon-80.png" />
+    <BundleResource Include="Resources\Icon-80%402x.png" />
+    <BundleResource Include="Resources\Icon-80%403x.png" />
+    <BundleResource Include="Resources\Icon-57%403x.png" />
+    <BundleResource Include="Resources\Icon-120.png" />
+    <BundleResource Include="Resources\Top-Icon%403x.png" />
+    <BundleResource Include="Resources\Top-Icon.png" />
+    <BundleResource Include="Resources\Top-Icon%402x.png" />
+    <BundleResource Include="Resources\Logo-Launch.png" />
+    <BundleResource Include="Resources\Logo-Launch%402x.png" />
+    <BundleResource Include="Resources\Logo-Launch%403x.png" />
+    <BundleResource Include="Resources\Sounds\have_a_good_time.mp3" />
+    <BundleResource Include="Resources\Sounds\its_been_a_great_success.mp3" />
+    <BundleResource Include="Resources\Sounds\congratulations.mp3" />
+    <BundleResource Include="Resources\Sounds\no_you%27re_finished.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <ITunesArtwork Include="iTunesArtwork" />
+    <ITunesArtwork Include="iTunesArtwork%402x" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+</Project>
