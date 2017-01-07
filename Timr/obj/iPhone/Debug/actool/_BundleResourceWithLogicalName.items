@@ -41,15 +41,15 @@
       <LogicalName>Assets.car</LogicalName>
       <Optimize>false</Optimize>
     </_BundleResourceWithLogicalName>
-    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/build-iphone9.2-10.1.1/actool/OnDemandResources/com.croutworst.timr-ios.GreenCircle.assetpack/Assets.car">
-      <LogicalName>OnDemandResources/com.croutworst.timr-ios.GreenCircle.assetpack/Assets.car</LogicalName>
-      <Optimize>false</Optimize>
-      <OutputPath>bin/iPhone/Debug/build-iphone9.2-10.1.1/OnDemandResources/com.croutworst.timr-ios.GreenCircle.assetpack/Assets.car</OutputPath>
-    </_BundleResourceWithLogicalName>
     <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/build-iphone9.2-10.1.1/actool/OnDemandResources/com.croutworst.timr-ios.RedCircle.assetpack/Assets.car">
       <LogicalName>OnDemandResources/com.croutworst.timr-ios.RedCircle.assetpack/Assets.car</LogicalName>
       <Optimize>false</Optimize>
       <OutputPath>bin/iPhone/Debug/build-iphone9.2-10.1.1/OnDemandResources/com.croutworst.timr-ios.RedCircle.assetpack/Assets.car</OutputPath>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/build-iphone9.2-10.1.1/actool/OnDemandResources/com.croutworst.timr-ios.GreenCircle.assetpack/Assets.car">
+      <LogicalName>OnDemandResources/com.croutworst.timr-ios.GreenCircle.assetpack/Assets.car</LogicalName>
+      <Optimize>false</Optimize>
+      <OutputPath>bin/iPhone/Debug/build-iphone9.2-10.1.1/OnDemandResources/com.croutworst.timr-ios.GreenCircle.assetpack/Assets.car</OutputPath>
     </_BundleResourceWithLogicalName>
     <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/build-iphone9.2-10.1.1/actool/OnDemandResources/com.croutworst.timr-ios.BlueCircle.assetpack/Assets.car">
       <LogicalName>OnDemandResources/com.croutworst.timr-ios.BlueCircle.assetpack/Assets.car</LogicalName>

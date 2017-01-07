@@ -70,3 +70,5 @@
 /Users/adamc/Projects/Timr/Timr/bin/iPhone/Release/TestTimer.exe
 /Users/adamc/Projects/Timr/Timr/obj/iPhone/Release/TestTimer.exe
 /Users/adamc/Projects/Timr/Timr/obj/iPhone/Release/TestTimer.exe.mdb
+/Users/adamc/Projects/Timr/Timr/bin/iPhone/Release/Timr.exe
+/Users/adamc/Projects/Timr/Timr/obj/iPhone/Release/Timr.exe

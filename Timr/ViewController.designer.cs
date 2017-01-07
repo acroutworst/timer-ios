@@ -8,7 +8,7 @@ using Foundation;
 using System;
 using System.CodeDom.Compiler;
 
-namespace TestTimer
+namespace Timr
 {
     [Register ("ViewController")]
     partial class ViewController

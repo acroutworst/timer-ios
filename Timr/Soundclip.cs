@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TestTimer
+namespace Timr
 {
 	public class Soundclip
 	{

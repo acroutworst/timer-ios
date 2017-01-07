@@ -1,13 +1,13 @@
 #include "xamarin/xamarin.h"
 
-extern void *mono_aot_module_TestTimer_info;
+extern void *mono_aot_module_Timr_info;
 extern void *mono_aot_module_Xamarin_iOS_info;
 extern void *mono_aot_module_mscorlib_info;
 extern void *mono_aot_module_System_info;
 
 void xamarin_register_modules_impl ()
 {
-	mono_aot_register_module (mono_aot_module_TestTimer_info);
+	mono_aot_register_module (mono_aot_module_Timr_info);
 	mono_aot_register_module (mono_aot_module_Xamarin_iOS_info);
 	mono_aot_register_module (mono_aot_module_mscorlib_info);
 	mono_aot_register_module (mono_aot_module_System_info);
@@ -29,7 +29,7 @@ void xamarin_setup_impl ()
 	xamarin_create_classes();
 	xamarin_init_mono_debug = FALSE;
 	xamarin_compact_seq_points = TRUE;
-	xamarin_executable_name = "TestTimer.exe";
+	xamarin_executable_name = "Timr.exe";
 	xamarin_use_new_assemblies = 1;
 	mono_use_llvm = FALSE;
 	xamarin_log_level = 2;

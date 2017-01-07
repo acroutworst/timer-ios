@@ -4,9 +4,9 @@
 	--cache \
 	/Users/adamc/Projects/Timr/Timr/obj/iPhone/Release/mtouch-cache \
 	--dev \
-	/Users/adamc/Projects/Timr/Timr/bin/iPhone/Release/TestTimer.app \
+	/Users/adamc/Projects/Timr/Timr/bin/iPhone/Release/Timr.app \
 	--executable \
-	TestTimer \
+	Timr \
 	--linksdkonly \
 	--sdkroot \
 	/Applications/Xcode.app/Contents/Developer \
@@ -33,4 +33,4 @@
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
 	--target-framework \
 	"Xamarin.iOS,v1.0" \
-	/Users/adamc/Projects/Timr/Timr/bin/iPhone/Release//TestTimer.exe \
+	/Users/adamc/Projects/Timr/Timr/bin/iPhone/Release//Timr.exe \

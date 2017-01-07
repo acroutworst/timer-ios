@@ -6,9 +6,10 @@ using CoreGraphics;
 using Foundation;
 using AudioToolbox;
 using AVFoundation;
-using TestTimer;
+using Timr;
+using System.Threading.Tasks;
 
-namespace TestTimer
+namespace Timr
 {
 	public partial class ViewController : UIViewController
 	{
@@ -24,7 +25,7 @@ namespace TestTimer
 		public UIButton toggleStopButton;
 		public UILabel numbersLabel;
 
-		private NSTimer _timer;
+		public NSTimer _timer;
 
 		public nint timerSec = 0;
 		public nint timerMin = 0;
@@ -49,6 +50,10 @@ namespace TestTimer
 			PrefersStatusBarHidden();
 			SetupUserInterface();
 			SetupEventHandlers();
+		}
+
+		public ViewController()
+		{
 		}
 
 		/// <summary>
@@ -400,11 +405,32 @@ namespace TestTimer
 		/// Setups the event handlers.
 		/// </summary>
 		private void SetupEventHandlers()
-		{ 
+		{
 			toggleStartButton.TouchUpInside += (sender, e) => Start();
+			//toggleStartButton.TouchUpInside += async(sender, e) =>
+			//{
+			//	await Task.Factory.StartNew(() => StartLongRunningTimer());
+			//};
+
 			toggleStopButton.TouchUpInside += (sender, e) => Stopped();
 			togglePauseButton.TouchUpInside += (sender, e) => Pause();
 			toggleResumeButton.TouchUpInside += (sender, e) => Resume();
+		}
+
+		public async Task StartLongRunningTimer() 
+		{
+			var cancel = new CancellationTokenSource();
+
+			var taskID = UIApplication.SharedApplication.BeginBackgroundTask( () => { });
+
+			await Task.Run(() =>
+			{
+				//InvokeOnMainThread(() => { 
+					Resume();
+				//});
+
+				UIApplication.SharedApplication.EndBackgroundTask(taskID);
+			}, cancel.Token);
 		}
 
 		/// <summary>
@@ -466,7 +492,7 @@ namespace TestTimer
 		/// <summary>
 		/// Pauses the timer. 
 		/// </summary>
-		private void Pause()
+		public void Pause()
 		{ 
 			_timer.Invalidate();
 
@@ -477,7 +503,7 @@ namespace TestTimer
 		/// <summary>
 		/// Resumes the timer.
 		/// </summary>
-		private void Resume() 
+		public void Resume() 
 		{
 			_timer.Dispose();
 

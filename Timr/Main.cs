@@ -1,6 +1,6 @@
 ﻿using UIKit;
 
-namespace TestTimer
+namespace Timr
 {
 	public class Application
 	{

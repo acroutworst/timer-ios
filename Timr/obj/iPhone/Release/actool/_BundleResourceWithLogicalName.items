@@ -41,15 +41,15 @@
       <LogicalName>Assets.car</LogicalName>
       <Optimize>false</Optimize>
     </_BundleResourceWithLogicalName>
-    <_BundleResourceWithLogicalName Include="obj/iPhone/Release/actool/OnDemandResources/com.croutworst.timr-ios.RedCircle.assetpack/Assets.car">
-      <LogicalName>OnDemandResources/com.croutworst.timr-ios.RedCircle.assetpack/Assets.car</LogicalName>
-      <Optimize>false</Optimize>
-      <OutputPath>bin/iPhone/Release/OnDemandResources/com.croutworst.timr-ios.RedCircle.assetpack/Assets.car</OutputPath>
-    </_BundleResourceWithLogicalName>
     <_BundleResourceWithLogicalName Include="obj/iPhone/Release/actool/OnDemandResources/com.croutworst.timr-ios.GreenCircle.assetpack/Assets.car">
       <LogicalName>OnDemandResources/com.croutworst.timr-ios.GreenCircle.assetpack/Assets.car</LogicalName>
       <Optimize>false</Optimize>
       <OutputPath>bin/iPhone/Release/OnDemandResources/com.croutworst.timr-ios.GreenCircle.assetpack/Assets.car</OutputPath>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Release/actool/OnDemandResources/com.croutworst.timr-ios.RedCircle.assetpack/Assets.car">
+      <LogicalName>OnDemandResources/com.croutworst.timr-ios.RedCircle.assetpack/Assets.car</LogicalName>
+      <Optimize>false</Optimize>
+      <OutputPath>bin/iPhone/Release/OnDemandResources/com.croutworst.timr-ios.RedCircle.assetpack/Assets.car</OutputPath>
     </_BundleResourceWithLogicalName>
     <_BundleResourceWithLogicalName Include="obj/iPhone/Release/actool/OnDemandResources/com.croutworst.timr-ios.BlueCircle.assetpack/Assets.car">
       <LogicalName>OnDemandResources/com.croutworst.timr-ios.BlueCircle.assetpack/Assets.car</LogicalName>

@@ -984,49 +984,49 @@ exception_handling:;
 	-(UIWindow *) window
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_4 (self, _cmd, &managed_method, "TestTimer.AppDelegate, TestTimer", "get_Window");
+		return native_to_managed_trampoline_4 (self, _cmd, &managed_method, "Timr.AppDelegate, Timr", "get_Window");
 	}
 
 	-(void) setWindow:(UIWindow *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_5 (self, _cmd, &managed_method, p0, "UIKit.UIWindow, Xamarin.iOS", "TestTimer.AppDelegate, TestTimer", "set_Window");
+		native_to_managed_trampoline_5 (self, _cmd, &managed_method, p0, "UIKit.UIWindow, Xamarin.iOS", "Timr.AppDelegate, Timr", "set_Window");
 	}
 
 	-(BOOL) application:(UIApplication *)p0 didFinishLaunchingWithOptions:(NSDictionary *)p1
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_6 (self, _cmd, &managed_method, p0, p1, "UIKit.UIApplication, Xamarin.iOS", "Foundation.NSDictionary, Xamarin.iOS", "TestTimer.AppDelegate, TestTimer", "FinishedLaunching");
+		return native_to_managed_trampoline_6 (self, _cmd, &managed_method, p0, p1, "UIKit.UIApplication, Xamarin.iOS", "Foundation.NSDictionary, Xamarin.iOS", "Timr.AppDelegate, Timr", "FinishedLaunching");
 	}
 
 	-(void) applicationWillResignActive:(UIApplication *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_7 (self, _cmd, &managed_method, p0, "UIKit.UIApplication, Xamarin.iOS", "TestTimer.AppDelegate, TestTimer", "OnResignActivation");
+		native_to_managed_trampoline_7 (self, _cmd, &managed_method, p0, "UIKit.UIApplication, Xamarin.iOS", "Timr.AppDelegate, Timr", "OnResignActivation");
 	}
 
 	-(void) applicationDidEnterBackground:(UIApplication *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_7 (self, _cmd, &managed_method, p0, "UIKit.UIApplication, Xamarin.iOS", "TestTimer.AppDelegate, TestTimer", "DidEnterBackground");
+		native_to_managed_trampoline_7 (self, _cmd, &managed_method, p0, "UIKit.UIApplication, Xamarin.iOS", "Timr.AppDelegate, Timr", "DidEnterBackground");
 	}
 
 	-(void) applicationWillEnterForeground:(UIApplication *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_7 (self, _cmd, &managed_method, p0, "UIKit.UIApplication, Xamarin.iOS", "TestTimer.AppDelegate, TestTimer", "WillEnterForeground");
+		native_to_managed_trampoline_7 (self, _cmd, &managed_method, p0, "UIKit.UIApplication, Xamarin.iOS", "Timr.AppDelegate, Timr", "WillEnterForeground");
 	}
 
 	-(void) applicationDidBecomeActive:(UIApplication *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_7 (self, _cmd, &managed_method, p0, "UIKit.UIApplication, Xamarin.iOS", "TestTimer.AppDelegate, TestTimer", "OnActivated");
+		native_to_managed_trampoline_7 (self, _cmd, &managed_method, p0, "UIKit.UIApplication, Xamarin.iOS", "Timr.AppDelegate, Timr", "OnActivated");
 	}
 
 	-(void) applicationWillTerminate:(UIApplication *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_7 (self, _cmd, &managed_method, p0, "UIKit.UIApplication, Xamarin.iOS", "TestTimer.AppDelegate, TestTimer", "WillTerminate");
+		native_to_managed_trampoline_7 (self, _cmd, &managed_method, p0, "UIKit.UIApplication, Xamarin.iOS", "Timr.AppDelegate, Timr", "WillTerminate");
 	}
 
 	-(BOOL) conformsToProtocol:(void *)p0
@@ -1039,7 +1039,7 @@ exception_handling:;
 	{
 		static MonoMethod *managed_method = NULL;
 		bool call_super = false;
-		id rv = native_to_managed_trampoline_8 (self, _cmd, &managed_method, "TestTimer.AppDelegate, TestTimer", ".ctor", &call_super);
+		id rv = native_to_managed_trampoline_8 (self, _cmd, &managed_method, "Timr.AppDelegate, Timr", ".ctor", &call_super);
 		if (call_super && rv) {
 			struct objc_super super = {  rv, [NSObject class] };
 			rv = ((id (*)(objc_super*, SEL)) objc_msgSendSuper) (&super, @selector (init));
@@ -1048,7 +1048,7 @@ exception_handling:;
 	}
 @end
 
-@interface TestTimer_ViewController_StatusPickerViewModel : NSObject<UIPickerViewModel> {
+@interface Timr_ViewController_StatusPickerViewModel : NSObject<UIPickerViewModel> {
 	XamarinObject __monoObjectGCHandle;
 }
 	-(void) release;
@@ -1063,7 +1063,7 @@ exception_handling:;
 	-(BOOL) conformsToProtocol:(void *)p0;
 	-(id) init;
 @end
-@implementation TestTimer_ViewController_StatusPickerViewModel { } 
+@implementation Timr_ViewController_StatusPickerViewModel { } 
 	-(void) release
 	{
 		xamarin_release_trampoline (self, _cmd);
@@ -1089,31 +1089,31 @@ exception_handling:;
 	-(NSInteger) numberOfComponentsInPickerView:(UIPickerView *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_9 (self, _cmd, &managed_method, p0, "UIKit.UIPickerView, Xamarin.iOS", "TestTimer.ViewController+StatusPickerViewModel, TestTimer", "GetComponentCount");
+		return native_to_managed_trampoline_9 (self, _cmd, &managed_method, p0, "UIKit.UIPickerView, Xamarin.iOS", "Timr.ViewController+StatusPickerViewModel, Timr", "GetComponentCount");
 	}
 
 	-(NSInteger) pickerView:(UIPickerView *)p0 numberOfRowsInComponent:(NSInteger)p1
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_10 (self, _cmd, &managed_method, p0, p1, "UIKit.UIPickerView, Xamarin.iOS", "System.nint, Xamarin.iOS", "TestTimer.ViewController+StatusPickerViewModel, TestTimer", "GetRowsInComponent");
+		return native_to_managed_trampoline_10 (self, _cmd, &managed_method, p0, p1, "UIKit.UIPickerView, Xamarin.iOS", "System.nint, Xamarin.iOS", "Timr.ViewController+StatusPickerViewModel, Timr", "GetRowsInComponent");
 	}
 
 	-(NSString *) pickerView:(UIPickerView *)p0 titleForRow:(NSInteger)p1 forComponent:(NSInteger)p2
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_11 (self, _cmd, &managed_method, p0, p1, p2, "UIKit.UIPickerView, Xamarin.iOS", "System.nint, Xamarin.iOS", "System.nint, Xamarin.iOS", "TestTimer.ViewController+StatusPickerViewModel, TestTimer", "GetTitle");
+		return native_to_managed_trampoline_11 (self, _cmd, &managed_method, p0, p1, p2, "UIKit.UIPickerView, Xamarin.iOS", "System.nint, Xamarin.iOS", "System.nint, Xamarin.iOS", "Timr.ViewController+StatusPickerViewModel, Timr", "GetTitle");
 	}
 
 	-(void) pickerView:(UIPickerView *)p0 didSelectRow:(NSInteger)p1 inComponent:(NSInteger)p2
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_12 (self, _cmd, &managed_method, p0, p1, p2, "UIKit.UIPickerView, Xamarin.iOS", "System.nint, Xamarin.iOS", "System.nint, Xamarin.iOS", "TestTimer.ViewController+StatusPickerViewModel, TestTimer", "Selected");
+		native_to_managed_trampoline_12 (self, _cmd, &managed_method, p0, p1, p2, "UIKit.UIPickerView, Xamarin.iOS", "System.nint, Xamarin.iOS", "System.nint, Xamarin.iOS", "Timr.ViewController+StatusPickerViewModel, Timr", "Selected");
 	}
 
 	-(CGFloat) pickerView:(UIPickerView *)p0 widthForComponent:(NSInteger)p1
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_13 (self, _cmd, &managed_method, p0, p1, "UIKit.UIPickerView, Xamarin.iOS", "System.nint, Xamarin.iOS", "TestTimer.ViewController+StatusPickerViewModel, TestTimer", "GetComponentWidth");
+		return native_to_managed_trampoline_13 (self, _cmd, &managed_method, p0, p1, "UIKit.UIPickerView, Xamarin.iOS", "System.nint, Xamarin.iOS", "Timr.ViewController+StatusPickerViewModel, Timr", "GetComponentWidth");
 	}
 
 	-(BOOL) conformsToProtocol:(void *)p0
@@ -1126,7 +1126,7 @@ exception_handling:;
 	{
 		static MonoMethod *managed_method = NULL;
 		bool call_super = false;
-		id rv = native_to_managed_trampoline_8 (self, _cmd, &managed_method, "TestTimer.ViewController+StatusPickerViewModel, TestTimer", ".ctor", &call_super);
+		id rv = native_to_managed_trampoline_8 (self, _cmd, &managed_method, "Timr.ViewController+StatusPickerViewModel, Timr", ".ctor", &call_super);
 		if (call_super && rv) {
 			struct objc_super super = {  rv, [NSObject class] };
 			rv = ((id (*)(objc_super*, SEL)) objc_msgSendSuper) (&super, @selector (init));
@@ -1149,6 +1149,7 @@ exception_handling:;
 	-(BOOL) prefersStatusBarHidden;
 	-(void) didReceiveMemoryWarning;
 	-(BOOL) conformsToProtocol:(void *)p0;
+	-(id) init;
 @end
 @implementation ViewController { } 
 	-(void) release
@@ -1176,37 +1177,49 @@ exception_handling:;
 	-(UILabel *) selectedLbl
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_14 (self, _cmd, &managed_method, "TestTimer.ViewController, TestTimer", "get_selectedLbl");
+		return native_to_managed_trampoline_14 (self, _cmd, &managed_method, "Timr.ViewController, Timr", "get_selectedLbl");
 	}
 
 	-(void) setSelectedLbl:(UILabel *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_15 (self, _cmd, &managed_method, p0, "UIKit.UILabel, Xamarin.iOS", "TestTimer.ViewController, TestTimer", "set_selectedLbl");
+		native_to_managed_trampoline_15 (self, _cmd, &managed_method, p0, "UIKit.UILabel, Xamarin.iOS", "Timr.ViewController, Timr", "set_selectedLbl");
 	}
 
 	-(void) viewDidLoad
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_1 (self, _cmd, &managed_method, "TestTimer.ViewController, TestTimer", "ViewDidLoad");
+		native_to_managed_trampoline_1 (self, _cmd, &managed_method, "Timr.ViewController, Timr", "ViewDidLoad");
 	}
 
 	-(BOOL) prefersStatusBarHidden
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_16 (self, _cmd, &managed_method, "TestTimer.ViewController, TestTimer", "PrefersStatusBarHidden");
+		return native_to_managed_trampoline_16 (self, _cmd, &managed_method, "Timr.ViewController, Timr", "PrefersStatusBarHidden");
 	}
 
 	-(void) didReceiveMemoryWarning
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_1 (self, _cmd, &managed_method, "TestTimer.ViewController, TestTimer", "DidReceiveMemoryWarning");
+		native_to_managed_trampoline_1 (self, _cmd, &managed_method, "Timr.ViewController, Timr", "DidReceiveMemoryWarning");
 	}
 
 	-(BOOL) conformsToProtocol:(void *)p0
 	{
 		static MonoMethod *managed_method = NULL;
 		return native_to_managed_trampoline_2 (self, _cmd, &managed_method, p0, "System.IntPtr, mscorlib", "Foundation.NSObject, Xamarin.iOS", "InvokeConformsToProtocol");
+	}
+
+	-(id) init
+	{
+		static MonoMethod *managed_method = NULL;
+		bool call_super = false;
+		id rv = native_to_managed_trampoline_8 (self, _cmd, &managed_method, "Timr.ViewController, Timr", ".ctor", &call_super);
+		if (call_super && rv) {
+			struct objc_super super = {  rv, [UIViewController class] };
+			rv = ((id (*)(objc_super*, SEL)) objc_msgSendSuper) (&super, @selector (init));
+		}
+		return rv;
 	}
 @end
 
@@ -1370,9 +1383,9 @@ exception_handling:;
 		{"UIGestureRecognizer", "UIKit.UIGestureRecognizer, Xamarin.iOS", NULL },
 		{"NSData", "Foundation.NSData, Xamarin.iOS", NULL },
 		{"NSDictionary", "Foundation.NSDictionary, Xamarin.iOS", NULL },
-		{"AppDelegate", "TestTimer.AppDelegate, TestTimer", NULL },
-		{"TestTimer_ViewController_StatusPickerViewModel", "TestTimer.ViewController+StatusPickerViewModel, TestTimer", NULL },
-		{"ViewController", "TestTimer.ViewController, TestTimer", NULL },
+		{"AppDelegate", "Timr.AppDelegate, Timr", NULL },
+		{"Timr_ViewController_StatusPickerViewModel", "Timr.ViewController+StatusPickerViewModel, Timr", NULL },
+		{"ViewController", "Timr.ViewController, Timr", NULL },
 		{"__UIGestureRecognizerToken", "UIKit.UIGestureRecognizer+Token, Xamarin.iOS", NULL },
 		{"__UIGestureRecognizerParameterlessToken", "UIKit.UIGestureRecognizer+ParameterlessDispatch, Xamarin.iOS", NULL },
 		{"__UIGestureRecognizerParametrizedToken", "UIKit.UIGestureRecognizer+ParametrizedDispatch, Xamarin.iOS", NULL },
@@ -1381,7 +1394,7 @@ exception_handling:;
 	};
 
 	static const char *__xamarin_registration_assemblies []= {
-		"TestTimer", 
+		"Timr", 
 		"Xamarin.iOS", 
 		"mscorlib", 
 		"System"
@@ -1447,7 +1460,7 @@ void xamarin_create_classes () {
 	__xamarin_class_map [47].handle = objc_getClass ("NSData");
 	__xamarin_class_map [48].handle = objc_getClass ("NSDictionary");
 	__xamarin_class_map [49].handle = [AppDelegate class];
-	__xamarin_class_map [50].handle = [TestTimer_ViewController_StatusPickerViewModel class];
+	__xamarin_class_map [50].handle = [Timr_ViewController_StatusPickerViewModel class];
 	__xamarin_class_map [51].handle = [ViewController class];
 	__xamarin_class_map [52].handle = objc_getClass ("__UIGestureRecognizerToken");
 	__xamarin_class_map [53].handle = objc_getClass ("__UIGestureRecognizerParameterlessToken");

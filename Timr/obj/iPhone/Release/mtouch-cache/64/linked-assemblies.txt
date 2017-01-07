@@ -1,4 +1,4 @@
 /Users/adamc/Projects/Timr/Timr/obj/iPhone/Release/mtouch-cache/64/Link/Xamarin.iOS.dll
-/Users/adamc/Projects/Timr/Timr/obj/iPhone/Release/mtouch-cache/64/Link/TestTimer.exe
+/Users/adamc/Projects/Timr/Timr/obj/iPhone/Release/mtouch-cache/64/Link/Timr.exe
 /Users/adamc/Projects/Timr/Timr/obj/iPhone/Release/mtouch-cache/64/Link/System.dll
 /Users/adamc/Projects/Timr/Timr/obj/iPhone/Release/mtouch-cache/64/Link/mscorlib.dll

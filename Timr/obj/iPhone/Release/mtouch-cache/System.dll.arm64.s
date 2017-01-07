@@ -227,7 +227,7 @@ bl _p_3
 .word 0xaa0003f9
 .word 0xb5ffff80
 .word 0x17ffffd0
-.word 0xd28015e0
+.word 0xd28015a0
 .word 0xaa1103e1
 bl _p_4
 
@@ -481,7 +481,7 @@ _mono_aot_file_info:
 	.long 40,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 201,51,212,153,67,140,185,51,19,139,55,154,11,89,231,237
+	.byte 187,55,127,228,213,176,15,116,240,158,229,231,213,206,109,80
 	.globl _mono_aot_module_System_info
 	.align 3
 _mono_aot_module_System_info:

@@ -20,7 +20,7 @@
 @class __MonoMac_NSAsyncActionDispatcher;
 @class UIKit_UIControlEventProxy;
 @class AppDelegate;
-@class TestTimer_ViewController_StatusPickerViewModel;
+@class Timr_ViewController_StatusPickerViewModel;
 @class ViewController;
 @class __UIGestureRecognizerToken;
 @class __UIGestureRecognizerParameterlessToken;

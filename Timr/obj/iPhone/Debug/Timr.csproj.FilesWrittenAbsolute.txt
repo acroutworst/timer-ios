@@ -70,3 +70,7 @@
 /Users/adamc/Projects/Timr/Timr/bin/iPhone/Debug/TestTimer.exe
 /Users/adamc/Projects/Timr/Timr/obj/iPhone/Debug/TestTimer.exe
 /Users/adamc/Projects/Timr/Timr/obj/iPhone/Debug/TestTimer.exe.mdb
+/Users/adamc/Projects/Timr/Timr/bin/iPhone/Debug/Timr.exe.mdb
+/Users/adamc/Projects/Timr/Timr/bin/iPhone/Debug/Timr.exe
+/Users/adamc/Projects/Timr/Timr/obj/iPhone/Debug/Timr.exe
+/Users/adamc/Projects/Timr/Timr/obj/iPhone/Debug/Timr.exe.mdb
